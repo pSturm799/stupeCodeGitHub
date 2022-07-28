@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "GQ9kfq1B0fbCn9/Z4S0m5yfVCXMFubFbzfp4MeX7COl6eUiiX95HMHTEDcb8x+CBBu6T+2xgDJQVtt2ey/EArQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\AutoMappperDemo\\AutoMappperDemo\\AutoMappperDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\psturm\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\psturm\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\psturm\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\psturm\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\psturm\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
