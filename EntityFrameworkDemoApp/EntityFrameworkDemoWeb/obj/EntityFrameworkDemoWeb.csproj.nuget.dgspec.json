@@ -1,0 +1,153 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\EntityFrameworkDemoApp\\EntityFrameworkDemoWeb\\EntityFrameworkDemoWeb.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\EntityFrameworkDemoApp\\EntityFrameworkAccessLibrary\\EntityFrameworkAccessLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\EntityFrameworkDemoApp\\EntityFrameworkAccessLibrary\\EntityFrameworkAccessLibrary.csproj",
+        "projectName": "EntityFrameworkAccessLibrary",
+        "projectPath": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\EntityFrameworkDemoApp\\EntityFrameworkAccessLibrary\\EntityFrameworkAccessLibrary.csproj",
+        "packagesPath": "C:\\Users\\psturm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\EntityFrameworkDemoApp\\EntityFrameworkAccessLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\psturm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://fwigroupcrm.pkgs.visualstudio.com/8efcf50d-8191-404a-856d-dabdab65ff36/_packaging/CC-Integration/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM-Beta/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM.FrontEnd/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\EntityFrameworkDemoApp\\EntityFrameworkDemoWeb\\EntityFrameworkDemoWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\EntityFrameworkDemoApp\\EntityFrameworkDemoWeb\\EntityFrameworkDemoWeb.csproj",
+        "projectName": "EntityFrameworkDemoWeb",
+        "projectPath": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\EntityFrameworkDemoApp\\EntityFrameworkDemoWeb\\EntityFrameworkDemoWeb.csproj",
+        "packagesPath": "C:\\Users\\psturm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\EntityFrameworkDemoApp\\EntityFrameworkDemoWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\psturm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://fwigroupcrm.pkgs.visualstudio.com/8efcf50d-8191-404a-856d-dabdab65ff36/_packaging/CC-Integration/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM-Beta/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM.FrontEnd/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\EntityFrameworkDemoApp\\EntityFrameworkAccessLibrary\\EntityFrameworkAccessLibrary.csproj": {
+                "projectPath": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\EntityFrameworkDemoApp\\EntityFrameworkAccessLibrary\\EntityFrameworkAccessLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

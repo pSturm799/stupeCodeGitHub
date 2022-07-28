@@ -1,0 +1,12 @@
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\ExceptionHandlingDemo\ExceptionsLibrary\bin\Debug\net5.0\ExceptionsLibrary.deps.json
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\ExceptionHandlingDemo\ExceptionsLibrary\bin\Debug\net5.0\ExceptionsLibrary.dll
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\ExceptionHandlingDemo\ExceptionsLibrary\bin\Debug\net5.0\ExceptionsLibrary.pdb
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\ExceptionHandlingDemo\ExceptionsLibrary\obj\Debug\net5.0\ExceptionsLibrary.csproj.AssemblyReference.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\ExceptionHandlingDemo\ExceptionsLibrary\obj\Debug\net5.0\ExceptionsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\ExceptionHandlingDemo\ExceptionsLibrary\obj\Debug\net5.0\ExceptionsLibrary.AssemblyInfoInputs.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\ExceptionHandlingDemo\ExceptionsLibrary\obj\Debug\net5.0\ExceptionsLibrary.AssemblyInfo.cs
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\ExceptionHandlingDemo\ExceptionsLibrary\obj\Debug\net5.0\ExceptionsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\ExceptionHandlingDemo\ExceptionsLibrary\obj\Debug\net5.0\ExceptionsLibrary.dll
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\ExceptionHandlingDemo\ExceptionsLibrary\obj\Debug\net5.0\refint\ExceptionsLibrary.dll
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\ExceptionHandlingDemo\ExceptionsLibrary\obj\Debug\net5.0\ExceptionsLibrary.pdb
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\ExceptionHandlingDemo\ExceptionsLibrary\obj\Debug\net5.0\ref\ExceptionsLibrary.dll

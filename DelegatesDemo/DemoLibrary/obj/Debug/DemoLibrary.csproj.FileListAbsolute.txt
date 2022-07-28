@@ -1,0 +1,6 @@
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\DemoLibrary\bin\Debug\DemoLibrary.dll
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\DemoLibrary\bin\Debug\DemoLibrary.pdb
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\DemoLibrary\obj\Debug\DemoLibrary.csproj.AssemblyReference.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\DemoLibrary\obj\Debug\DemoLibrary.csproj.CoreCompileInputs.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\DemoLibrary\obj\Debug\DemoLibrary.dll
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\DemoLibrary\obj\Debug\DemoLibrary.pdb

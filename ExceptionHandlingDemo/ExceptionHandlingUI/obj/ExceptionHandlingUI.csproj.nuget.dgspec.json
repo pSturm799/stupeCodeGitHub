@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\ExceptionHandlingDemo\\ExceptionHandlingUI\\ExceptionHandlingUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\ExceptionHandlingDemo\\ExceptionHandlingUI\\ExceptionHandlingUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\ExceptionHandlingDemo\\ExceptionHandlingUI\\ExceptionHandlingUI.csproj",
+        "projectName": "ExceptionHandlingUI",
+        "projectPath": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\ExceptionHandlingDemo\\ExceptionHandlingUI\\ExceptionHandlingUI.csproj",
+        "packagesPath": "C:\\Users\\psturm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\ExceptionHandlingDemo\\ExceptionHandlingUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\psturm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://fwigroupcrm.pkgs.visualstudio.com/8efcf50d-8191-404a-856d-dabdab65ff36/_packaging/CC-Integration/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM-Beta/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM.FrontEnd/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\ExceptionHandlingDemo\\ExceptionsLibrary\\ExceptionsLibrary.csproj": {
+                "projectPath": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\ExceptionHandlingDemo\\ExceptionsLibrary\\ExceptionsLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\ExceptionHandlingDemo\\ExceptionsLibrary\\ExceptionsLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\ExceptionHandlingDemo\\ExceptionsLibrary\\ExceptionsLibrary.csproj",
+        "projectName": "ExceptionsLibrary",
+        "projectPath": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\ExceptionHandlingDemo\\ExceptionsLibrary\\ExceptionsLibrary.csproj",
+        "packagesPath": "C:\\Users\\psturm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\ExceptionHandlingDemo\\ExceptionsLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\psturm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://fwigroupcrm.pkgs.visualstudio.com/8efcf50d-8191-404a-856d-dabdab65ff36/_packaging/CC-Integration/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM-Beta/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM.FrontEnd/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

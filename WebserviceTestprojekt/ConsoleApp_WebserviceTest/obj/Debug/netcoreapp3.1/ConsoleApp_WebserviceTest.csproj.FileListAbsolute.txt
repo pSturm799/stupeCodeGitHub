@@ -1,0 +1,65 @@
+C:\Temp\ConsoleApp_WebserviceTest\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.exe
+C:\Temp\ConsoleApp_WebserviceTest\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.csprojAssemblyReference.cache
+C:\Temp\ConsoleApp_WebserviceTest\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.AssemblyInfoInputs.cache
+C:\Temp\ConsoleApp_WebserviceTest\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.AssemblyInfo.cs
+C:\Temp\ConsoleApp_WebserviceTest\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.deps.json
+C:\Temp\ConsoleApp_WebserviceTest\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.runtimeconfig.json
+C:\Temp\ConsoleApp_WebserviceTest\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.runtimeconfig.dev.json
+C:\Temp\ConsoleApp_WebserviceTest\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.dll
+C:\Temp\ConsoleApp_WebserviceTest\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.pdb
+C:\Temp\ConsoleApp_WebserviceTest\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Temp\ConsoleApp_WebserviceTest\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.csproj.CoreCompileInputs.cache
+C:\Temp\ConsoleApp_WebserviceTest\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.csproj.CopyComplete
+C:\Temp\ConsoleApp_WebserviceTest\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.dll
+C:\Temp\ConsoleApp_WebserviceTest\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.pdb
+C:\Temp\ConsoleApp_WebserviceTest\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.genruntimeconfig.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Desktop\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.exe
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Desktop\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.deps.json
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Desktop\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.runtimeconfig.json
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Desktop\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.runtimeconfig.dev.json
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Desktop\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.dll
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Desktop\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.pdb
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Desktop\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Desktop\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.csprojAssemblyReference.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Desktop\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.csproj.CoreCompileInputs.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Desktop\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.AssemblyInfoInputs.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Desktop\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.AssemblyInfo.cs
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Desktop\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.csproj.CopyComplete
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Desktop\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.dll
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Desktop\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.pdb
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Desktop\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.genruntimeconfig.cache
+C:\Temp\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.exe
+C:\Temp\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.deps.json
+C:\Temp\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.runtimeconfig.json
+C:\Temp\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.runtimeconfig.dev.json
+C:\Temp\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.dll
+C:\Temp\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.pdb
+C:\Temp\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Temp\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.csprojAssemblyReference.cache
+C:\Temp\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.csproj.CoreCompileInputs.cache
+C:\Temp\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.AssemblyInfoInputs.cache
+C:\Temp\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.AssemblyInfo.cs
+C:\Temp\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.csproj.CopyComplete
+C:\Temp\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.dll
+C:\Temp\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.pdb
+C:\Temp\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.genruntimeconfig.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Desktop\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\Cosmo.Core.dll
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Desktop\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.AssemblyInfoInputs.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.AssemblyInfo.cs
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.csproj.CoreCompileInputs.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.dll
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.pdb
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.exe
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.deps.json
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.runtimeconfig.json
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.runtimeconfig.dev.json
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.dll
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.pdb
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\Cosmo.Core.dll
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.genruntimeconfig.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.csproj.AssemblyReference.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.csproj.CopyComplete

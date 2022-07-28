@@ -1,0 +1,10 @@
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\EntityFrameworkDemoApp\EntityFrameworkAccessLibrary\bin\Debug\netstandard2.1\EntityFrameworkAccessLibrary.deps.json
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\EntityFrameworkDemoApp\EntityFrameworkAccessLibrary\bin\Debug\netstandard2.1\EntityFrameworkAccessLibrary.dll
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\EntityFrameworkDemoApp\EntityFrameworkAccessLibrary\bin\Debug\netstandard2.1\EntityFrameworkAccessLibrary.pdb
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\EntityFrameworkDemoApp\EntityFrameworkAccessLibrary\obj\Debug\netstandard2.1\EntityFrameworkAccessLibrary.csproj.AssemblyReference.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\EntityFrameworkDemoApp\EntityFrameworkAccessLibrary\obj\Debug\netstandard2.1\EntityFrameworkAccessLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\EntityFrameworkDemoApp\EntityFrameworkAccessLibrary\obj\Debug\netstandard2.1\EntityFrameworkAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\EntityFrameworkDemoApp\EntityFrameworkAccessLibrary\obj\Debug\netstandard2.1\EntityFrameworkAccessLibrary.AssemblyInfo.cs
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\EntityFrameworkDemoApp\EntityFrameworkAccessLibrary\obj\Debug\netstandard2.1\EntityFrameworkAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\EntityFrameworkDemoApp\EntityFrameworkAccessLibrary\obj\Debug\netstandard2.1\EntityFrameworkAccessLibrary.dll
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\EntityFrameworkDemoApp\EntityFrameworkAccessLibrary\obj\Debug\netstandard2.1\EntityFrameworkAccessLibrary.pdb

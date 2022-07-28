@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "x7FREJ8aAU6LX5FXc5qAi2JKyVD0OJ0JIGY/cmuT43MC9OehkoRUmD2QJNKpbdINAmTu8oftDcyj6IEVfH9VAg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\WebserviceTestprojekt\\ConsoleApp_WebserviceTest\\ConsoleApp_WebserviceTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\psturm\\.nuget\\packages\\cosmo.core\\1.5.1\\cosmo.core.1.5.1.nupkg.sha512",
+    "C:\\Users\\psturm\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\psturm\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
+  ],
+  "logs": []
+}

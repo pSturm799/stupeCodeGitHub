@@ -1,0 +1,13 @@
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\WinFormUI\bin\Debug\WinFormUI.exe.config
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\WinFormUI\bin\Debug\WinFormUI.exe
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\WinFormUI\bin\Debug\WinFormUI.pdb
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\WinFormUI\bin\Debug\DemoLibrary.dll
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\WinFormUI\bin\Debug\DemoLibrary.pdb
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\WinFormUI\obj\Debug\WinFormUI.csproj.AssemblyReference.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\WinFormUI\obj\Debug\WinFormUI.Dashboard.resources
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\WinFormUI\obj\Debug\WinFormUI.Properties.Resources.resources
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\WinFormUI\obj\Debug\WinFormUI.csproj.GenerateResource.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\WinFormUI\obj\Debug\WinFormUI.csproj.CoreCompileInputs.cache
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\WinFormUI\obj\Debug\WinFormUI.csproj.CopyComplete
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\WinFormUI\obj\Debug\WinFormUI.exe
+C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\DelegatesDemo\WinFormUI\obj\Debug\WinFormUI.pdb

@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj",
+        "projectName": "DependencyInjection",
+        "projectPath": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj",
+        "packagesPath": "C:\\Users\\psturm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\DependencyInjection\\DependencyInjection\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\psturm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://fwigroupcrm.pkgs.visualstudio.com/8efcf50d-8191-404a-856d-dabdab65ff36/_packaging/CC-Integration/nuget/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM-Beta/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM.FrontEnd/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Azure.Functions.Extensions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.25, 3.1.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

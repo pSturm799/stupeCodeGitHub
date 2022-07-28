@@ -1,0 +1,31 @@
+﻿@page "/"
+@inject IConfiguration _config
+
+<h1>AppSettings Values</h1>
+
+<p>
+    MySetting Value: @mySetting
+</p>
+<p>
+    SubSetting Value: @subSetting
+</p>
+<p>
+    Connection String Value: @connectionString
+</p>
+
+
+@code
+{
+    string mySetting = "";
+    string subSetting = "";
+    string connectionString = "";
+
+    protected override void OnInitialized()
+    {
+    //mySetting = _config.GetValue<string>("MySetting");
+        var azureJson = _config.GetSection("Azure");
+        mySetting = azureJson["MySetting"];
+        subSetting = _config.GetValue<string>("MainSetting:SubSetting");
+        connectionString = _config.GetConnectionString("Default");
+    }
+}
