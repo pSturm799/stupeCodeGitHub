@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "dgSpecHash": "uMo+LXFwfQQ5qWaRXs3WIPH21KzqtK6jahN5QTRaL5bz1L8FhdmWd70NWDTvQq3gqjjKIUbdEKv5bM8LfLtyTw==",
+  "success": true,
+  "projectFilePath": "C:\\GitPrivat\\stupeCodeGitHub\\SerilogWithSeqForPlugins\\SerilogWithSeqForPlugins\\SerilogWithSeqForPlugins.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\psturm8576\\.nuget\\packages\\cosmo.core\\1.0.0\\cosmo.core.1.0.0.nupkg.sha512",
+    "C:\\Users\\psturm8576\\.nuget\\packages\\crm.core\\4.0.0\\crm.core.4.0.0.nupkg.sha512",
+    "C:\\Users\\psturm8576\\.nuget\\packages\\crm.core.settings\\3.1.0\\crm.core.settings.3.1.0.nupkg.sha512",
+    "C:\\Users\\psturm8576\\.nuget\\packages\\microsoft.crmsdk.coreassemblies\\5.0.18\\microsoft.crmsdk.coreassemblies.5.0.18.nupkg.sha512",
+    "C:\\Users\\psturm8576\\.nuget\\packages\\microsoft.identitymodel\\6.1.7600.16394\\microsoft.identitymodel.6.1.7600.16394.nupkg.sha512",
+    "C:\\Users\\psturm8576\\.nuget\\packages\\serilog\\2.12.1-dev-01594\\serilog.2.12.1-dev-01594.nupkg.sha512",
+    "C:\\Users\\psturm8576\\.nuget\\packages\\serilog.formatting.compact\\1.1.0\\serilog.formatting.compact.1.1.0.nupkg.sha512",
+    "C:\\Users\\psturm8576\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\psturm8576\\.nuget\\packages\\serilog.sinks.periodicbatching\\3.1.0\\serilog.sinks.periodicbatching.3.1.0.nupkg.sha512",
+    "C:\\Users\\psturm8576\\.nuget\\packages\\serilog.sinks.seq\\5.2.3-dev-00260\\serilog.sinks.seq.5.2.3-dev-00260.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CRM.Core 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CRM.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CRM.Core.Settings 3.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CRM.Core.Settings",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.CrmSdk.CoreAssemblies 5.0.18' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.CrmSdk.CoreAssemblies",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.IdentityModel 6.1.7600.16394' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.IdentityModel",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

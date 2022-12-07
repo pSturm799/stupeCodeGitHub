@@ -1,0 +1,4 @@
+﻿1. NuGet Packages installieren
+ - CRM.Core.Settings 
+ - Serilog
+ - Serilog.Sinks.Seq

@@ -1,0 +1,484 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Cosmo.Core/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Cosmo.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Cosmo.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CRM.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Cosmo.Core": "1.0.0",
+          "Microsoft.CrmSdk.CoreAssemblies": "5.0.18"
+        },
+        "compile": {
+          "lib/net452/CRM.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net452/CRM.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CRM.Core.Settings/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CRM.Core": "4.0.0"
+        },
+        "compile": {
+          "lib/net452/CRM.Core.Settings.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net452/CRM.Core.Settings.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.CrmSdk.CoreAssemblies/5.0.18": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel": "6.1.7600.16394"
+        },
+        "compile": {
+          "lib/net40/Microsoft.Crm.Sdk.Proxy.dll": {
+            "related": ".xml"
+          },
+          "lib/net40/Microsoft.Xrm.Sdk.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Crm.Sdk.Proxy.dll": {
+            "related": ".xml"
+          },
+          "lib/net40/Microsoft.Xrm.Sdk.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel/6.1.7600.16394": {
+        "type": "package",
+        "compile": {
+          "lib/net35/Microsoft.IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net35/Microsoft.IdentityModel.dll": {}
+        }
+      },
+      "Serilog/2.12.1-dev-01594": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Formatting.Compact/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.8.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Formatting.Compact.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Formatting.Compact.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.File/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.File.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.File.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Serilog.Sinks.PeriodicBatching/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Serilog.Sinks.PeriodicBatching.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Serilog.Sinks.PeriodicBatching.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Seq/5.2.3-dev-00260": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.12.0",
+          "Serilog.Formatting.Compact": "1.1.0",
+          "Serilog.Sinks.File": "5.0.0",
+          "Serilog.Sinks.PeriodicBatching": "3.1.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Seq.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Seq.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cosmo.Core/1.0.0": {
+      "sha512": "6UeT99tsZ9ln7GseYtSQ7O5zDBED/MN0sDk4RfWQeL7uE3qmO4AZ8qwvwC1i8vRyryCapxOPjFBobJcMXJYOGg==",
+      "type": "package",
+      "path": "cosmo.core/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "cosmo.core.1.0.0.nupkg.sha512",
+        "cosmo.core.nuspec",
+        "lib/net451/Cosmo.Core.dll",
+        "lib/net451/Cosmo.Core.xml",
+        "lib/net452/Cosmo.Core.dll",
+        "lib/net452/Cosmo.Core.xml",
+        "lib/net46/Cosmo.Core.dll",
+        "lib/net46/Cosmo.Core.xml",
+        "lib/netstandard2.0/Cosmo.Core.dll",
+        "lib/netstandard2.0/Cosmo.Core.xml"
+      ]
+    },
+    "CRM.Core/4.0.0": {
+      "sha512": "42qwba+zXzYnIjE7ABWNBpqVyr7jC0vC4K2V5KWtp6Uhza0RCI1oB+6uGPU4DYmYpP+n6sfO1sfiPWFYyEv4+g==",
+      "type": "package",
+      "path": "crm.core/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "crm.core.4.0.0.nupkg.sha512",
+        "crm.core.nuspec",
+        "lib/net452/CRM.Core.dll",
+        "lib/net452/CRM.Core.xml"
+      ]
+    },
+    "CRM.Core.Settings/3.1.0": {
+      "sha512": "USnkq65/KpF8MwPciiSVJU7qHH7dfLHeKYCLBArPawbibANMmE18gD0mL7tEvt0qdiu9GtLU0rCu/x7vIG18JQ==",
+      "type": "package",
+      "path": "crm.core.settings/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        "crm.core.settings.3.1.0.nupkg.sha512",
+        "crm.core.settings.nuspec",
+        "lib/net452/CRM.Core.Settings.dll",
+        "lib/net452/CRM.Core.Settings.xml"
+      ]
+    },
+    "Microsoft.CrmSdk.CoreAssemblies/5.0.18": {
+      "sha512": "ePoIN4XRnz+VogtGI9BYrA9FT5jCn8ghx9TPCzq4P5qWHrO8eyAZUApAsSVxKvjYSoBwvExTMN7q2yB9Mr0fAA==",
+      "type": "package",
+      "path": "microsoft.crmsdk.coreassemblies/5.0.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/bin/tools/CrmSvcUtil.exe",
+        "content/bin/tools/CrmSvcUtil.xml",
+        "content/bin/tools/Microsoft.Xrm.Sdk.dll",
+        "content/bin/tools/SolutionPackager.exe",
+        "lib/net40/LicenseTerms.docx",
+        "lib/net40/Microsoft.Crm.Sdk.Proxy.dll",
+        "lib/net40/Microsoft.Crm.Sdk.Proxy.xml",
+        "lib/net40/Microsoft.Xrm.Sdk.dll",
+        "lib/net40/Microsoft.Xrm.Sdk.xml",
+        "microsoft.crmsdk.coreassemblies.5.0.18.nupkg.sha512",
+        "microsoft.crmsdk.coreassemblies.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel/6.1.7600.16394": {
+      "sha512": "qsst2HALUxXdDVmOEk6GJ8U7LNbrQIpIiPesdD+k99TuRc5zy+J4zK4fNpiX+hiMd4cCGoY9WIT3f021Syocdw==",
+      "type": "package",
+      "path": "microsoft.identitymodel/6.1.7600.16394",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Microsoft.IdentityModel.dll",
+        "microsoft.identitymodel.6.1.7600.16394.nupkg.sha512",
+        "microsoft.identitymodel.nuspec"
+      ]
+    },
+    "Serilog/2.12.1-dev-01594": {
+      "sha512": "17Ro773Lzj2CfumY0URORIWYEcVzUaLvWxqC6uv5ItnGSq898vYJ1ZRnho3ohVRISNok+ylNSaAISpAU2GZVaQ==",
+      "type": "package",
+      "path": "serilog/2.12.1-dev-01594",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net45/Serilog.dll",
+        "lib/net45/Serilog.xml",
+        "lib/net46/Serilog.dll",
+        "lib/net46/Serilog.xml",
+        "lib/net47/Serilog.dll",
+        "lib/net47/Serilog.xml",
+        "lib/net5.0/Serilog.dll",
+        "lib/net5.0/Serilog.xml",
+        "lib/net6.0/Serilog.dll",
+        "lib/net6.0/Serilog.xml",
+        "lib/netstandard1.0/Serilog.dll",
+        "lib/netstandard1.0/Serilog.xml",
+        "lib/netstandard1.3/Serilog.dll",
+        "lib/netstandard1.3/Serilog.xml",
+        "lib/netstandard2.0/Serilog.dll",
+        "lib/netstandard2.0/Serilog.xml",
+        "lib/netstandard2.1/Serilog.dll",
+        "lib/netstandard2.1/Serilog.xml",
+        "serilog.2.12.1-dev-01594.nupkg.sha512",
+        "serilog.nuspec"
+      ]
+    },
+    "Serilog.Formatting.Compact/1.1.0": {
+      "sha512": "pNroKVjo+rDqlxNG5PXkRLpfSCuDOBY0ri6jp9PLe505ljqwhwZz8ospy2vWhQlFu5GkIesh3FcDs4n7sWZODA==",
+      "type": "package",
+      "path": "serilog.formatting.compact/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Serilog.Formatting.Compact.dll",
+        "lib/net452/Serilog.Formatting.Compact.xml",
+        "lib/netstandard1.1/Serilog.Formatting.Compact.dll",
+        "lib/netstandard1.1/Serilog.Formatting.Compact.xml",
+        "lib/netstandard2.0/Serilog.Formatting.Compact.dll",
+        "lib/netstandard2.0/Serilog.Formatting.Compact.xml",
+        "serilog.formatting.compact.1.1.0.nupkg.sha512",
+        "serilog.formatting.compact.nuspec"
+      ]
+    },
+    "Serilog.Sinks.File/5.0.0": {
+      "sha512": "uwV5hdhWPwUH1szhO8PJpFiahqXmzPzJT/sOijH/kFgUx+cyoDTMM8MHD0adw9+Iem6itoibbUXHYslzXsLEAg==",
+      "type": "package",
+      "path": "serilog.sinks.file/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "lib/net45/Serilog.Sinks.File.dll",
+        "lib/net45/Serilog.Sinks.File.pdb",
+        "lib/net45/Serilog.Sinks.File.xml",
+        "lib/net5.0/Serilog.Sinks.File.dll",
+        "lib/net5.0/Serilog.Sinks.File.pdb",
+        "lib/net5.0/Serilog.Sinks.File.xml",
+        "lib/netstandard1.3/Serilog.Sinks.File.dll",
+        "lib/netstandard1.3/Serilog.Sinks.File.pdb",
+        "lib/netstandard1.3/Serilog.Sinks.File.xml",
+        "lib/netstandard2.0/Serilog.Sinks.File.dll",
+        "lib/netstandard2.0/Serilog.Sinks.File.pdb",
+        "lib/netstandard2.0/Serilog.Sinks.File.xml",
+        "lib/netstandard2.1/Serilog.Sinks.File.dll",
+        "lib/netstandard2.1/Serilog.Sinks.File.pdb",
+        "lib/netstandard2.1/Serilog.Sinks.File.xml",
+        "serilog.sinks.file.5.0.0.nupkg.sha512",
+        "serilog.sinks.file.nuspec"
+      ]
+    },
+    "Serilog.Sinks.PeriodicBatching/3.1.0": {
+      "sha512": "NDWR7m3PalVlGEq3rzoktrXikjFMLmpwF0HI4sowo8YDdU+gqPlTHlDQiOGxHfB0sTfjPA9JjA7ctKG9zqjGkw==",
+      "type": "package",
+      "path": "serilog.sinks.periodicbatching/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net45/Serilog.Sinks.PeriodicBatching.dll",
+        "lib/net45/Serilog.Sinks.PeriodicBatching.xml",
+        "lib/netstandard1.1/Serilog.Sinks.PeriodicBatching.dll",
+        "lib/netstandard1.1/Serilog.Sinks.PeriodicBatching.xml",
+        "lib/netstandard1.2/Serilog.Sinks.PeriodicBatching.dll",
+        "lib/netstandard1.2/Serilog.Sinks.PeriodicBatching.xml",
+        "lib/netstandard2.0/Serilog.Sinks.PeriodicBatching.dll",
+        "lib/netstandard2.0/Serilog.Sinks.PeriodicBatching.xml",
+        "lib/netstandard2.1/Serilog.Sinks.PeriodicBatching.dll",
+        "lib/netstandard2.1/Serilog.Sinks.PeriodicBatching.xml",
+        "serilog.sinks.periodicbatching.3.1.0.nupkg.sha512",
+        "serilog.sinks.periodicbatching.nuspec"
+      ]
+    },
+    "Serilog.Sinks.Seq/5.2.3-dev-00260": {
+      "sha512": "fq1pZvBxzyr1KsPfI2LeCgZENG5MvMAcb/JObjIpk/ql64ceLVjQ+Gyx8lMU8crif/QVrYa+yPRkrTAOQH66jw==",
+      "type": "package",
+      "path": "serilog.sinks.seq/5.2.3-dev-00260",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net45/Serilog.Sinks.Seq.dll",
+        "lib/net45/Serilog.Sinks.Seq.xml",
+        "lib/net5.0/Serilog.Sinks.Seq.dll",
+        "lib/net5.0/Serilog.Sinks.Seq.xml",
+        "lib/netcoreapp3.1/Serilog.Sinks.Seq.dll",
+        "lib/netcoreapp3.1/Serilog.Sinks.Seq.xml",
+        "lib/netstandard1.1/Serilog.Sinks.Seq.dll",
+        "lib/netstandard1.1/Serilog.Sinks.Seq.xml",
+        "lib/netstandard1.3/Serilog.Sinks.Seq.dll",
+        "lib/netstandard1.3/Serilog.Sinks.Seq.xml",
+        "lib/netstandard2.0/Serilog.Sinks.Seq.dll",
+        "lib/netstandard2.0/Serilog.Sinks.Seq.xml",
+        "serilog.sinks.seq.5.2.3-dev-00260.nupkg.sha512",
+        "serilog.sinks.seq.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "CRM.Core.Settings >= 3.1.0",
+      "Serilog >= 2.12.1-dev-01594",
+      "Serilog.Sinks.Seq >= 5.2.3-dev-00260"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\psturm8576\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\GitPrivat\\stupeCodeGitHub\\SerilogWithSeqForPlugins\\SerilogWithSeqForPlugins\\SerilogWithSeqForPlugins.csproj",
+      "projectName": "SerilogWithSeqForPlugins",
+      "projectPath": "C:\\GitPrivat\\stupeCodeGitHub\\SerilogWithSeqForPlugins\\SerilogWithSeqForPlugins\\SerilogWithSeqForPlugins.csproj",
+      "packagesPath": "C:\\Users\\psturm8576\\.nuget\\packages\\",
+      "outputPath": "C:\\GitPrivat\\stupeCodeGitHub\\SerilogWithSeqForPlugins\\SerilogWithSeqForPlugins\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\psturm8576\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://fwigroupcrm.pkgs.visualstudio.com/8efcf50d-8191-404a-856d-dabdab65ff36/_packaging/CC-Integration/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM-Beta/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM.FrontEnd/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM.LKWW/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/fwigroupcrm/_packaging/CRM/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "CRM.Core.Settings": {
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
+          "Serilog": {
+            "target": "Package",
+            "version": "[2.12.1-dev-01594, )"
+          },
+          "Serilog.Sinks.Seq": {
+            "target": "Package",
+            "version": "[5.2.3-dev-00260, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CRM.Core 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CRM.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CRM.Core.Settings 3.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CRM.Core.Settings",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.CrmSdk.CoreAssemblies 5.0.18' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.CrmSdk.CoreAssemblies",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.IdentityModel 6.1.7600.16394' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.IdentityModel",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
