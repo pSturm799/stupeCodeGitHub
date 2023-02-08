@@ -562,6 +562,24 @@ namespace CrmTestkonsolenprojekt_4_8
                 //}
 
                 #endregion
+
+
+                #region TimeZone/DateTime
+
+                //IFromEntityGetModifiedBy fromEntityGetModifiedBy = new FromEntityGetModifiedBy(fromEntityReferenceGetCustomerAssetEntity);
+                //IQueryExpression userSettingsByUserIdWithTimeZoneCodeQueryExpression = new UserSettingsByUserIdWithTimeZoneCodeQueryExpression(fromEntityGetModifiedBy);
+                //IEntities userSettings = new RetrieveMultipleEntities(userSettingsByUserIdWithTimeZoneCodeQueryExpression, extendedCodeActivityContext.OrganizationService);
+                //IEntity userSetting = new FirstOrDefaultEntityByEntities(userSettings);
+                //IFromEntityGetTimeZoneCode timeZoneCode = new FromEntityGetTimeZoneCode(userSetting);
+                //// # get local cos_abschreibungvon time
+                //IOrganizationRequest localAbschreibungVonTimeFromUtcTimeRequestByTimeZoneCode =
+                //    new LocalTimeFromUtcTimeRequestByTimeZoneCode(timeZoneCode, getCosAbschreibungVonDateTime);
+                //IExecuteOrganizationRequestExtended localAbschreibungVonTimeFromUtcTimeResponse =
+                //    new ExecuteOrganizationRequestExtended(localAbschreibungVonTimeFromUtcTimeRequestByTimeZoneCode, extendedCodeActivityContext.OrganizationService);
+                //ILocalTimeFromUtcTimeResponseLocalTime localAbschreibungVonTimeFromUtcTimeResponseLocalTime =
+                //    new LocalTimeFromUtcTimeResponseLocalTime(localAbschreibungVonTimeFromUtcTimeResponse);
+
+                #endregion
             }
             else
             {

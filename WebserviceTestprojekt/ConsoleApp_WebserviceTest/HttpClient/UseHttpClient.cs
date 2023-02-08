@@ -36,7 +36,7 @@ namespace ConsoleApp_WebserviceTest.HttpClient
                 if (response.IsSuccessStatusCode)
                 {
                     var responseString = response.Content.ReadAsStringAsync().Result;
-                    var attach2 = JsonConvert.DeserializeObject<BvdResultModel>(responseString);
+                    var attach2 = JsonConvert.DeserializeObject<BvdGetDataResponseModel>(responseString);
                     if (attach2.Data.Any())
                     {
                         var city = attach2.Data[0].CITY;

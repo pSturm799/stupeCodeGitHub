@@ -34,6 +34,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Cosmo.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=447cd79fe2efd739, processorArchitecture=MSIL">
+      <HintPath>packages\Cosmo.Core.1.6.0\lib\net46\Cosmo.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=447cd79fe2efd739, processorArchitecture=MSIL">
+      <HintPath>packages\CRM.Core.5.0.1\lib\net452\CRM.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Crm.Sdk.Proxy, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.25\lib\net462\Microsoft.Crm.Sdk.Proxy.dll</HintPath>
     </Reference>
@@ -89,6 +95,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\ExecuteOrganizationRequest.cs" />
+    <Compile Include="Core\IDateTime.cs" />
+    <Compile Include="Core\IExecuteOrganizationRequestExtended.cs" />
+    <Compile Include="Core\ILocalTimeFromUtcTimeResponseLocalTime.cs" />
+    <Compile Include="Core\ITimeZoneCode.cs" />
+    <Compile Include="Core\LocalTimeFromUtcTimeRequestByTimeZoneCode.cs" />
+    <Compile Include="Core\LocalTimeFromUtcTimeResponseLocalTime.cs" />
     <Compile Include="CrmTestumgebung.cs" />
     <Compile Include="Model\SyncIntDurationWithDecimalSettingsModel.cs" />
     <Compile Include="Program.cs" />
