@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Buffers.Text;
 using System.IO;
 using System.Net;
 using System.Text;
-using System.Threading;
-using System.Xml.Linq;
-using ConsoleApp_WebserviceTest.xLocate;
-using Newtonsoft.Json;
+using ConsoleApp_WebserviceTest.HttpClient;
 
 namespace ConsoleApp_WebserviceTest
 {
@@ -14,6 +10,18 @@ namespace ConsoleApp_WebserviceTest
     {
         static void Main(string[] args)
         {
+            try
+            {
+                UseHttpClient.CallRestWithHttpClinet();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+            return;
+
+
             FileStream fs = new FileStream(@"C:\Users\psturm\Downloads\Kontoauszug_431023048200_2021-12-01_1104.pdf", FileMode.Open, FileAccess.Read);
             byte[] ar = new byte[(int)fs.Length];
             fs.Read(ar, 0, (int)fs.Length);

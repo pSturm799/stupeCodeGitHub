@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "x7FREJ8aAU6LX5FXc5qAi2JKyVD0OJ0JIGY/cmuT43MC9OehkoRUmD2QJNKpbdINAmTu8oftDcyj6IEVfH9VAg==",
+  "dgSpecHash": "ISWgGB+Y5QD4laSy9CHnerNA4PFnoBbBIe5/KfcI35kEWFS3j6TPOMNju/VAtbzIdp5ttkLpg+wDIFUW/a2nEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\psturm\\OneDrive - Cosmo Consult AG\\Coding\\WebserviceTestprojekt\\ConsoleApp_WebserviceTest\\ConsoleApp_WebserviceTest.csproj",
+  "projectFilePath": "C:\\GitPrivat\\stupeCodeGitHub\\WebserviceTestprojekt\\ConsoleApp_WebserviceTest\\ConsoleApp_WebserviceTest.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\psturm\\.nuget\\packages\\cosmo.core\\1.5.1\\cosmo.core.1.5.1.nupkg.sha512",
-    "C:\\Users\\psturm\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\psturm\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
+    "C:\\Users\\psturm8576\\.nuget\\packages\\cosmo.core\\1.5.1\\cosmo.core.1.5.1.nupkg.sha512",
+    "C:\\Users\\psturm8576\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\psturm8576\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
+    "C:\\Users\\psturm8576\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
   ],
   "logs": []
 }

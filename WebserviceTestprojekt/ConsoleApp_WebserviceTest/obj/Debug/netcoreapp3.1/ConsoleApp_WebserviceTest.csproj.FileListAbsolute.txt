@@ -63,3 +63,21 @@ C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\Console
 C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.csproj.AssemblyReference.cache
 C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.csproj.CopyComplete
+C:\GitPrivat\stupeCodeGitHub\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.exe
+C:\GitPrivat\stupeCodeGitHub\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.deps.json
+C:\GitPrivat\stupeCodeGitHub\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.runtimeconfig.json
+C:\GitPrivat\stupeCodeGitHub\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.runtimeconfig.dev.json
+C:\GitPrivat\stupeCodeGitHub\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.dll
+C:\GitPrivat\stupeCodeGitHub\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.pdb
+C:\GitPrivat\stupeCodeGitHub\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\Cosmo.Core.dll
+C:\GitPrivat\stupeCodeGitHub\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\GitPrivat\stupeCodeGitHub\WebserviceTestprojekt\ConsoleApp_WebserviceTest\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\GitPrivat\stupeCodeGitHub\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.csproj.AssemblyReference.cache
+C:\GitPrivat\stupeCodeGitHub\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitPrivat\stupeCodeGitHub\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.AssemblyInfoInputs.cache
+C:\GitPrivat\stupeCodeGitHub\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.AssemblyInfo.cs
+C:\GitPrivat\stupeCodeGitHub\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.csproj.CoreCompileInputs.cache
+C:\GitPrivat\stupeCodeGitHub\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.csproj.CopyComplete
+C:\GitPrivat\stupeCodeGitHub\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.dll
+C:\GitPrivat\stupeCodeGitHub\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.pdb
+C:\GitPrivat\stupeCodeGitHub\WebserviceTestprojekt\ConsoleApp_WebserviceTest\obj\Debug\netcoreapp3.1\ConsoleApp_WebserviceTest.genruntimeconfig.cache
