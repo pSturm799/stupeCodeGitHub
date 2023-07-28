@@ -1,0 +1,990 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CRM.Core</name>
+    </assembly>
+    <members>
+        <member name="T:CRM.Core.AllColumnsColumnSet">
+            <summary>
+            Returns a ColumnSet where all Columns are set
+            </summary>
+        </member>
+        <member name="P:CRM.Core.AllColumnsColumnSet.Value">
+            <summary>
+                Value
+            </summary>
+        </member>
+        <member name="T:CRM.Core.AttributeValueFromEntities`1">
+            <summary>
+                Returns Attributes of Type T from the passed entities
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:CRM.Core.AttributeValueFromEntities`1.#ctor(CRM.Core.IEntities,System.String,System.Boolean)">
+            <summary>
+                Constructor
+            </summary>
+            <param name="entities"></param>
+            <param name="attributeName"></param>
+            <param name="onlyRecordsThatContainAttribute">If set True Only Records that contain the Attribute will be returned</param>
+        </member>
+        <member name="P:CRM.Core.AttributeValueFromEntities`1.Value">
+            <summary>
+                Returns Attributes of Type T from the passed entities
+            </summary>
+        </member>
+        <member name="T:CRM.Core.AttributeValueFromEntity`1">
+            <summary>
+                Returns an Attribute of Type T from the passed entity
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:CRM.Core.AttributeValueFromEntity`1.#ctor(CRM.Core.IEntity,System.String)">
+            <summary>
+                Constructor
+            </summary>
+            <param name="entity"></param>
+            <param name="attributeName"></param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="P:CRM.Core.AttributeValueFromEntity`1.Value">
+            <summary>
+                Returns an Attribute of Type T from the passed entity
+            </summary>
+        </member>
+        <member name="T:CRM.Core.FromLicenseRecordGetLicenseIdString">
+            <summary>
+                Use ValidateCrmSolutionLicense! This class only executes the CRM solution license check request
+            public class FromLicenseRecordGetLicenseIdString : IFromProductNameGetLicenseIdString
+            Provides:
+            public string Value
+            Returns "cos_azurelicenseid" (=string) of given Entity, when given entity is not null and id is not guid.empty.
+            </summary>
+        </member>
+        <member name="M:CRM.Core.FromLicenseRecordGetLicenseIdString.#ctor(CRM.Core.IFromSolutionNameGetLicenseRecord)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="fromSolutionNameGetLicenseRecord"></param>
+        </member>
+        <member name="P:CRM.Core.FromLicenseRecordGetLicenseIdString.Value">
+            <summary>
+            public string Value
+            Returns "cos_azurelicenseid" (=string) of given Entity, when given entity is not null and id is not guid.empty.
+            </summary>
+        </member>
+        <member name="T:CRM.Core.FromSolutionNameGetLicenseRecord">
+            <summary>
+                Use ValidateCrmSolutionLicense! This class only executes the CRM solution license check request
+            public class FromSolutionNameGetLicenseRecord : IFromSolutionNameGetLicenseRecord
+            Provides:
+            public Entity Value
+            Returns first found retrieved Entity.
+            If no Entity could be found or there is no valid Query, the returning value will be null;
+            </summary>
+        </member>
+        <member name="M:CRM.Core.FromSolutionNameGetLicenseRecord.#ctor(CRM.Core.Requests.IRetrieveMultipleForQueryExpression,CRM.Core.IQueryForLicenseBySolutionName)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="retrieveMultipleForQueryExpression"></param>
+            <param name="queryForLicenseBySolutionName"></param>
+        </member>
+        <member name="P:CRM.Core.FromSolutionNameGetLicenseRecord.Value">
+            <summary>
+            public Entity Value
+            Returns first found retrieved Entity.
+            If no Entity could be found or there is no valid Query, the returning value will be null;
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IFromLicenseRecordGetLicenseIdString">
+            <summary>
+                Use ValidateCrmSolutionLicense! This class only executes the CRM solution license check request
+            public interface IFromLicenseRecordGetLicenseIdString : IValue of string
+            Should provide the primary Id of the license record related to a specific Product Name/Solution Name.
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IFromSolutionNameGetLicenseRecord">
+            <summary>
+                Use ValidateCrmSolutionLicense! This class only executes the CRM solution license check request
+            public interface IFromSolutionNameGetLicenseRecord : IEntity
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IProductNameToBeCheckedForLicense">
+            <summary>
+                Use ValidateCrmSolutionLicense! This class only executes the CRM solution license check request
+            public interface IProductNameToBeCheckedForLicense : IValue of string
+            Provides the name of the Solution/Product which should be checked for valid license.
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IQueryForLicenseBySolutionName">
+            <summary>
+                Use ValidateCrmSolutionLicense! This class only executes the CRM solution license check request
+            public interface IQueryForLicenseBySolutionName : IQueryExpression
+            </summary>
+        </member>
+        <member name="T:CRM.Core.KeepAliveFalseWebClient">
+            <summary>
+                WebClient with KeepAlive = false
+            </summary>
+        </member>
+        <member name="M:CRM.Core.KeepAliveFalseWebClient.GetWebRequest(System.Uri)">
+            <summary>
+                GetWebRequest
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IOptionSetValue">
+            <summary>
+                Value of type OptionSetValue
+            </summary>
+        </member>
+        <member name="T:CRM.Core.FromContextGetCurrentEntityReference">
+            <summary>
+                Returns current EntityReference from ExecutionContext
+            </summary>
+        </member>
+        <member name="M:CRM.Core.FromContextGetCurrentEntityReference.#ctor(Microsoft.Xrm.Sdk.IExecutionContext)">
+            <summary>
+                Initializes a new instance of the <see cref="T:System.Object" /> class.
+            </summary>
+        </member>
+        <member name="P:CRM.Core.FromContextGetCurrentEntityReference.Value">
+            <summary>
+                Value
+            </summary>
+        </member>
+        <member name="T:CRM.Core.CachedFromEntityReferenceGetEntity">
+            <summary>
+                Returns Entity from given EntityReference and ColumnSet
+            </summary>
+        </member>
+        <member name="M:CRM.Core.CachedFromEntityReferenceGetEntity.#ctor(CRM.Core.IFromEntityReferenceGetEntity)">
+            <summary>
+                Returns Entity from given EntityReference and ColumnSet
+            </summary>
+        </member>
+        <member name="P:CRM.Core.CachedFromEntityReferenceGetEntity.NonCachedValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CRM.Core.FromContextGetCurrentUserEntityReference">
+            <summary>
+                From execution-context get initiating user reference
+            </summary>
+        </member>
+        <member name="M:CRM.Core.FromContextGetCurrentUserEntityReference.#ctor(Microsoft.Xrm.Sdk.IExecutionContext)">
+            <summary>
+                Constructor
+            </summary>
+            <param name="executionContext">Execution context</param>
+        </member>
+        <member name="P:CRM.Core.FromContextGetCurrentUserEntityReference.Value">
+            <summary>Value</summary>
+        </member>
+        <member name="T:CRM.Core.FromEntitiesGetEntityReferences">
+            <summary>
+                List of entity references from entities
+            </summary>
+        </member>
+        <member name="M:CRM.Core.FromEntitiesGetEntityReferences.#ctor(CRM.Core.IEntities)">
+            <summary>
+                Constructor of the class.
+            </summary>
+            <param name="entities">Entities to convert to references.</param>
+        </member>
+        <member name="P:CRM.Core.FromEntitiesGetEntityReferences.Value">
+            <summary>Value</summary>
+        </member>
+        <member name="T:CRM.Core.FromEntityGetEntityReference">
+            <summary>
+                List of entity references from entities
+            </summary>
+        </member>
+        <member name="M:CRM.Core.FromEntityGetEntityReference.#ctor(CRM.Core.IEntity)">
+            <summary>
+                Constructor of the class.
+            </summary>
+            <param name="entity">Entity to convert to reference.</param>
+        </member>
+        <member name="P:CRM.Core.FromEntityGetEntityReference.Value">
+            <summary>Value</summary>
+        </member>
+        <member name="T:CRM.Core.IFromContextGetCurrentEntityReference">
+            <summary>
+                Returns current EntityReference from ExecutionContext
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IFromContextGetCurrentUserEntityReference">
+            <summary>
+                From execution-context get initiating user reference
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IFromEntitiesGetEntityReferences">
+            <summary>
+                List of entity references from entities
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IMoney">
+            <summary>
+                Money
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IOrganizationRequest">
+            <summary>
+                OrganizationRequest
+            </summary>
+        </member>
+        <member name="T:CRM.Core.ProductNameToBeCheckedForLicense">
+            <summary>
+                Use ValidateCrmSolutionLicense! This class only executes the CRM solution license check request
+            public class ProductNameToBeCheckedForLicense : IProductNameToBeCheckedForLicense
+            Provides:
+            public string Value
+            Returns the productName string set via Constructor.
+            </summary>
+        </member>
+        <member name="M:CRM.Core.ProductNameToBeCheckedForLicense.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="productName">Name of the Product/Solution to be checked for active/valid license.</param>
+        </member>
+        <member name="P:CRM.Core.ProductNameToBeCheckedForLicense.Value">
+            <summary>
+            public string Value
+            Returns the productName string set via Constructor.
+            </summary>
+        </member>
+        <member name="T:CRM.Core.QueryForLicenseBySolutionName">
+            <summary>
+                Use ValidateCrmSolutionLicense! This class only executes the CRM solution license check request
+            public class QueryForLicenseBySolutionName : IQueryForLicenseBySolutionName
+            Provides:
+            public QueryExpression Value
+            
+            </summary>
+        </member>
+        <member name="M:CRM.Core.QueryForLicenseBySolutionName.#ctor(CRM.Core.IProductNameToBeCheckedForLicense)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="productNameToBeCheckedForLicense"></param>
+        </member>
+        <member name="P:CRM.Core.QueryForLicenseBySolutionName.Value">
+            <summary>
+            public QueryExpression Value
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.ExecuteOrganizationRequest">
+            <summary>
+                Execute request to crm
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.ExecuteOrganizationRequest.#ctor(Microsoft.Xrm.Sdk.IOrganizationService,CRM.Core.IOrganizationRequest)">
+            <summary>
+                Constructor of the class.
+            </summary>
+            <param name="organizationService">CRM organizationService</param>
+            <param name="organizationRequest">OrganizationRequest</param>
+        </member>
+        <member name="M:CRM.Core.Requests.ExecuteOrganizationRequest.Run">
+            <summary>
+                Run.
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.IExecuteOrganizationRequest">
+            <summary>
+                Execute request to crm
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.AssignRecord">
+            <summary>
+                DEPRECATED -> Use an UpdateRequest. Provides a method to assign a record.
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.AssignRecord.#ctor(Microsoft.Xrm.Sdk.IOrganizationService)">
+            <summary>
+                Constructor of the class.
+            </summary>
+            <param name="organizationService">Crm organizationService.</param>
+        </member>
+        <member name="M:CRM.Core.Requests.AssignRecord.Run(Microsoft.Xrm.Sdk.EntityReference,Microsoft.Xrm.Sdk.EntityReference)">
+            <inheritdoc />
+            <summary>
+                Assign given record to given assignee.
+            </summary>
+            <param name="target">Record to assign.</param>
+            <param name="assignee">User or team to assign to.</param>
+        </member>
+        <member name="T:CRM.Core.Requests.CachedRetrievedEntityByRetrieveMultiple">
+            <summary>
+                Cached retrieved entity (first of retrievemultiple) from CRM.
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.CachedRetrievedEntityByRetrieveMultiple.#ctor(Microsoft.Xrm.Sdk.IOrganizationService,CRM.Core.IQueryExpression)">
+            <summary>
+                Constructor of the class.
+            </summary>
+            <param name="organizationService">CRM organizationService.</param>
+            <param name="queryExpression">Queryexpression for retrieve.</param>
+        </member>
+        <member name="P:CRM.Core.Requests.CachedRetrievedEntityByRetrieveMultiple.NonCachedValue">
+            <summary>
+                Retrieved entity from CRM.
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.CachedRetrieveMultipleEntities">
+            <summary>
+                Executes a RetrieveMultiple Request by using the given Query and returns the retrieved Entities as a cached List.
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.CachedRetrieveMultipleEntities.#ctor(CRM.Core.IQueryExpression,CRM.Core.Requests.IRetrieveMultipleForQueryExpression)">
+            <summary />
+            <param name="queryExpression"></param>
+            <param name="retrieveMultipleForQueryExpression"></param>
+        </member>
+        <member name="M:CRM.Core.Requests.CachedRetrieveMultipleEntities.#ctor(CRM.Core.IQueryExpression,Microsoft.Xrm.Sdk.IOrganizationService)">
+            <summary />
+            <param name="queryExpression"></param>
+            <param name="organizationService"></param>
+        </member>
+        <member name="P:CRM.Core.Requests.CachedRetrieveMultipleEntities.NonCachedValue">
+            <summary>
+                Executes a RetrieveMultiple Request by using the given Query and returns the retrieved Entities as cached List.
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.CreateRecord">
+            <summary>
+                Create entity in crm.
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.CreateRecord.#ctor(Microsoft.Xrm.Sdk.IOrganizationService,CRM.Core.IEntity)">
+            <summary>
+                Constructor of the class.
+            </summary>
+            <param name="organizationService">CRM organizationService.</param>
+            <param name="entity">Entity to create in crm.</param>
+        </member>
+        <member name="M:CRM.Core.Requests.CreateRecord.Run">
+            <summary>
+                Create entity in crm.
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.DeleteRecords">
+            <summary>
+                Deletes some Entities
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.DeleteRecords.#ctor(CRM.Core.IEntities,Microsoft.Xrm.Sdk.IOrganizationService)">
+            <summary />
+            <param name="entities"></param>
+            <param name="organizationService"></param>
+        </member>
+        <member name="M:CRM.Core.Requests.DeleteRecords.#ctor(CRM.Core.IEntityReferences,Microsoft.Xrm.Sdk.IOrganizationService)">
+            <summary />
+            <param name="references">Entities to delete</param>
+            <param name="organizationService"></param>
+        </member>
+        <member name="M:CRM.Core.Requests.DeleteRecords.Run">
+            <summary>
+                Deletes the Entities
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.GrantAccess">
+            <summary>
+                Grants access to an entity.
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.GrantAccess.#ctor(CRM.Core.IEntityReference,CRM.Core.IEntityReference,Microsoft.Crm.Sdk.Messages.AccessRights,CRM.Core.Requests.IGrantAccessToRecord)">
+            <summary />
+            <param name="targetReference"></param>
+            <param name="principalReference"></param>
+            <param name="accessRights"></param>
+            <param name="grantAccess"></param>
+        </member>
+        <member name="M:CRM.Core.Requests.GrantAccess.Run">
+            <summary>
+                Grants access to an entity.
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.GrantAccessToRecord">
+            <summary>
+                Class that executes a GrantAccessRequest
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.GrantAccessToRecord.#ctor(Microsoft.Xrm.Sdk.IOrganizationService)">
+            <summary>
+                Initialisiert eine neue Instanz der <see cref="T:System.Object" />-Klasse.
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.GrantAccessToRecord.To(Microsoft.Xrm.Sdk.EntityReference,Microsoft.Xrm.Sdk.EntityReference)">
+            <summary>
+                Grants access to an entity with AccessRights.None
+            </summary>
+            <param name="target">EntityReference of the entity you want grant access to.</param>
+            <param name="principal">EntityReference of the person / team you want to grant access.</param>
+        </member>
+        <member name="M:CRM.Core.Requests.GrantAccessToRecord.To(Microsoft.Xrm.Sdk.EntityReference,Microsoft.Xrm.Sdk.EntityReference,Microsoft.Crm.Sdk.Messages.AccessRights)">
+            <summary>
+                Grants access to an entity.
+            </summary>
+            <param name="target">EntityReference of the entity you want grant access to.</param>
+            <param name="principal">EntityReference of the person / team you want to grant access.</param>
+            <param name="accessMask">AccessRights of the granted access.</param>
+        </member>
+        <member name="T:CRM.Core.Requests.ICreateRecord">
+            <summary>
+                Create entities in crm.
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.IDeleteRecords">
+            <summary>
+                Deletes some Entities
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.CreateRecords">
+            <summary>
+                Creates a List of Entities and returns its Guids
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.CreateRecords.#ctor(CRM.Core.IEntities,Microsoft.Xrm.Sdk.IOrganizationService)">
+            <summary />
+            <param name="entities"></param>
+            <param name="organizationService"></param>
+        </member>
+        <member name="P:CRM.Core.Requests.CreateRecords.Value">
+            <summary>
+                List of Created Guids
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.DeactivateRecord">
+            <summary>
+                Deactivates a record by setting its statecode
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.DeactivateRecord.#ctor(CRM.Core.IEntityReference,CRM.Core.Requests.IDeactivateRecordByEntityReference)">
+            <summary />
+            <param name="entityReference"></param>
+            <param name="deactivateRecordByEntityReference"></param>
+        </member>
+        <member name="M:CRM.Core.Requests.DeactivateRecord.Run">
+            <summary>
+                Deactivates the Entity
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.DeactivateRecordByEntityReference">
+            <summary>
+                Deactivates a record by setting its statecode to 1.
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.DeactivateRecordByEntityReference.#ctor(Microsoft.Xrm.Sdk.IOrganizationService)">
+            <summary>
+                Constructor of the class.
+            </summary>
+            <param name="organizationService">Mscrm organization service.</param>
+        </member>
+        <member name="M:CRM.Core.Requests.DeactivateRecordByEntityReference.RunFor(Microsoft.Xrm.Sdk.EntityReference)">
+            <summary>
+                Executes a Update request for the given entityreference with statecode set to 1.
+            </summary>
+            <param name="recordToDeactivate">Reference to the entity that will be deactivated.</param>
+        </member>
+        <member name="T:CRM.Core.Requests.IAssignRecord">
+            <summary>
+                Provides a method to assign a record.
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.IAssignRecord.Run(Microsoft.Xrm.Sdk.EntityReference,Microsoft.Xrm.Sdk.EntityReference)">
+            <summary>
+                Assign given record to given assignee.
+            </summary>
+            <param name="target">Record to assign.</param>
+            <param name="assignee">User or team to assign to.</param>
+        </member>
+        <member name="T:CRM.Core.Requests.ICreateRecords">
+            <summary>
+                Creates a List of Entities and returns its Guids
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.IGrantAccess">
+            <summary>
+                Grants access to an entity.
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.IGrantAccessToRecord">
+            <summary>
+                Grants access to an entity.
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.IGrantAccessToRecord.To(Microsoft.Xrm.Sdk.EntityReference,Microsoft.Xrm.Sdk.EntityReference)">
+            <summary>
+                Grants access to an entity with AccessRights.None
+            </summary>
+            <param name="target">EntityReference of the entity you want grant access to.</param>
+            <param name="principal">EntityReference of the person / team you want to grant access.</param>
+        </member>
+        <member name="M:CRM.Core.Requests.IGrantAccessToRecord.To(Microsoft.Xrm.Sdk.EntityReference,Microsoft.Xrm.Sdk.EntityReference,Microsoft.Crm.Sdk.Messages.AccessRights)">
+            <summary>
+                Grants access to an entity.
+            </summary>
+            <param name="target">EntityReference of the entity you want grant access to.</param>
+            <param name="principal">EntityReference of the person / team you want to grant access.</param>
+            <param name="accessMask">AccessRights of the granted access.</param>
+        </member>
+        <member name="T:CRM.Core.Requests.IRetrieveEntity">
+            <summary>
+                Interface for retrieving an entity
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.IRetrieveMultipleEntities">
+            <summary>
+                Executes a RetrieveMultiple Request
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.IRetrieveMultipleForQueryExpression">
+            <summary>
+                Multiple retrieved Entities
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.IDeactivateRecord">
+            <summary>
+                Deactivates a record by setting its statecode
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.IDeactivateRecordByEntityReference">
+            <inheritdoc />
+            <summary>
+                Deactivates a record by setting its statecode
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.IUpdateRecord">
+            <summary>
+                Interface for classes that update an entity.
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.RetrievedEntityByRetrieveMultiple">
+            <summary>
+                Cached retrieved entity (first of retrievemultiple) from CRM.
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.RetrievedEntityByRetrieveMultiple.#ctor(Microsoft.Xrm.Sdk.IOrganizationService,CRM.Core.IQueryExpression)">
+            <summary>
+                Constructor of the class.
+            </summary>
+            <param name="organizationService">CRM organizationService.</param>
+            <param name="queryExpression">Queryexpression for retrieve.</param>
+        </member>
+        <member name="P:CRM.Core.Requests.RetrievedEntityByRetrieveMultiple.Value">
+            <summary>
+                Retrieved entity from CRM.
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Requests.RetrieveMultipleEntities">
+            <summary>
+                Executes a RetrieveMultiple Request by using the given Query and returns the retrieved Entities as List.
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.RetrieveMultipleEntities.#ctor(CRM.Core.IQueryExpression,CRM.Core.Requests.IRetrieveMultipleForQueryExpression)">
+            <summary />
+            <param name="queryExpression"></param>
+            <param name="retrieveMultipleForQueryExpression"></param>
+        </member>
+        <member name="M:CRM.Core.Requests.RetrieveMultipleEntities.#ctor(CRM.Core.IQueryExpression,Microsoft.Xrm.Sdk.IOrganizationService)">
+            <summary />
+            <param name="queryExpression"></param>
+            <param name="organizationService"></param>
+        </member>
+        <member name="P:CRM.Core.Requests.RetrieveMultipleEntities.Value">
+            <summary>
+                Executes a RetrieveMultiple Request by using the given Query and returns the retrieved Entities as a List.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CRM.Core.Requests.RetrieveMultipleForQueryExpression">
+            <summary>
+                Executes a RetrieveMultiple Request by using the given Query and returns the retrieved Entities as List.
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.RetrieveMultipleForQueryExpression.#ctor(Microsoft.Xrm.Sdk.IOrganizationService)">
+            <summary />
+            <param name="organizationService"></param>
+        </member>
+        <member name="M:CRM.Core.Requests.RetrieveMultipleForQueryExpression.ValueFor(Microsoft.Xrm.Sdk.Query.QueryExpression)">
+            <inheritdoc />
+            <summary>Value</summary>
+        </member>
+        <member name="T:CRM.Core.Requests.UpdateRecord">
+            <summary>
+                Class that updates an entity with given attributes.
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.UpdateRecord.#ctor(CRM.Core.IEntityReference,CRM.Core.IAttributeCollection,Microsoft.Xrm.Sdk.IOrganizationService)">
+            <summary>
+                Constructor with EntityReference to be Updated
+            </summary>
+            <param name="entityReference"></param>
+            <param name="attributeCollection"></param>
+            <param name="organizationService"></param>
+        </member>
+        <member name="M:CRM.Core.Requests.UpdateRecord.#ctor(CRM.Core.IEntity,CRM.Core.IAttributeCollection,Microsoft.Xrm.Sdk.IOrganizationService)">
+            <summary>
+                Constructor with Entity to be Updated
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Requests.UpdateRecord.Run">
+            <summary>
+                Updates an entity.
+            </summary>
+        </member>
+        <member name="T:CRM.Core.EmptyColumnSet">
+            <summary>
+                ColumnSet to Retrieve no Attributes
+            </summary>
+        </member>
+        <member name="P:CRM.Core.EmptyColumnSet.Value">
+            <summary>
+                Value
+            </summary>
+        </member>
+        <member name="T:CRM.Core.ExecuteCrmSolutionLicenseRequest">
+            <summary>
+                Use ValidateCrmSolutionLicense! This class only executes the CRM solution license check request
+            public class ExecuteCrmSolutionLicenseRequest : IExecuteCrmSolutionLicenseRequest
+            Provides:
+            public object Value
+            Executes License Request to Cosmo License API and returns reponse message or statuscode, see below.
+            </summary>
+        </member>
+        <member name="M:CRM.Core.ExecuteCrmSolutionLicenseRequest.#ctor(CRM.Core.IProductNameToBeCheckedForLicense,CRM.Core.IFromLicenseRecordGetLicenseIdString)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="productNameToBeCheckedForLicense"></param>
+            <param name="fromLicenseRecordGetLicenseIdString"></param>
+        </member>
+        <member name="P:CRM.Core.ExecuteCrmSolutionLicenseRequest.Value">
+            <summary>
+            public object Value
+            Executes License Request to Cosmo License API and returns reponse message or statuscode, see below.
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IEmptyColumnSet">
+            <summary>
+                ColumnSet to Retrieve no Attributes
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IExecuteCrmSolutionLicenseRequest">
+            <summary>
+                Use ValidateCrmSolutionLicense! This class only executes the CRM solution license check request
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IFromEntityGetEntityReference">
+            <summary>
+                EntityReference from entity.
+            </summary>
+        </member>
+        <member name="T:CRM.Core.ILinkEntity">
+            <summary>
+                Generic Interface construct to encapsulate LinkEntity Interfaces
+            </summary>
+        </member>
+        <member name="T:CRM.Core.EntityReferenceExtensions">
+            <summary>
+                Encapsulates EntityReference Extensions
+            </summary>
+        </member>
+        <member name="M:CRM.Core.EntityReferenceExtensions.ToEntity(Microsoft.Xrm.Sdk.EntityReference)">
+            <summary>
+                Returns Reference as Entity
+            </summary>
+            <param name="entityReference"></param>
+        </member>
+        <member name="T:CRM.Core.FromEntityReferenceGetEntity">
+            <summary>
+                Returns Entity from given EntityReference and ColumnSet
+            </summary>
+        </member>
+        <member name="M:CRM.Core.FromEntityReferenceGetEntity.#ctor(CRM.Core.IEntityReference,CRM.Core.IColumnSet,Microsoft.Xrm.Sdk.IOrganizationService)">
+            <summary />
+            <param name="entityReference"></param>
+            <param name="columnSet"></param>
+            <param name="organizationService"></param>
+        </member>
+        <member name="P:CRM.Core.FromEntityReferenceGetEntity.Value">
+            <summary>
+                Retrieved Entity
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IAttributeCollection">
+            <summary>
+            Encapsulates an AttributeCollection
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IFromEntityReferenceGetEntity">
+            <summary>
+                Returns Entity from given EntityReference and ColumnSet
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IUpdateEntityAttributes">
+            <summary>
+                Update attributes from entity (target)
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IValidateCrmSolutionLicense">
+            <summary>
+                Validate CRM product license by Azure Logic app with a 10 times retry logic
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IWait">
+            <summary>
+                Logic execution waits for given seconds
+            </summary>
+        </member>
+        <member name="T:CRM.Core.EntityExtensions">
+            <summary>
+                Static Entity Extension Methods
+            </summary>
+        </member>
+        <member name="M:CRM.Core.EntityExtensions.MergeEntityAttributes(Microsoft.Xrm.Sdk.Entity,Microsoft.Xrm.Sdk.Entity)">
+            <summary>
+                Merges two instances of class "entity".
+            </summary>
+            <param name="entity">Sub-Entity which values will be overriden</param>
+            <param name="mergeEntity">Master-Entity which will be merge over Sub-Entity</param>
+        </member>
+        <member name="T:CRM.Core.IAdminOrganizationService">
+            <summary>
+            Encapsulates an Organization with elevated privileges
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IAllColumnsColumnSet">
+            <summary>
+            ColumnSet to Retrieve all Attributes 
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IAttributeValueFromEntities`1">
+            <summary>
+                Returns Attributes of Type T from the passed entities
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IAttributeValueFromEntity`1">
+            <summary>
+            Retrieves Attribute of Type T from given Entity based on given string
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:CRM.Core.IColumnSet">
+            <summary>
+                Generic Interface construct to encapsulate ColumnSet Interfaces
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IEntities">
+            <summary>
+                public interface IEntities
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IEntity">
+            <summary>
+            Encapsulates an Entity 
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IEntityReference">
+            <summary>
+                Encapsulates an EntityReference
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IEntityReferences">
+            <summary>
+                Encapsulates a list of EntityReferences
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IFetchExpression">
+            <summary>
+            Encapsulates a FetchExpression
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IQuery`1">
+            <summary>
+            Encapsulates a Query 
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:CRM.Core.IQueryExpression">
+            <summary>
+            Encapsulates a QueryExpression
+            </summary>
+        </member>
+        <member name="T:CRM.Core.ISpecificColumnsColumnSet">
+            <summary>
+            Encapsulates a ColumnSet
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IThreadSafeAdminOrganizationService">
+            <summary>
+                Encapsulates a ThreadSafeAdminOrganizationService
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IUserId">
+            <summary>
+            Encapsulates an UserId as Guid
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IUserLanguageCode">
+            <summary>
+            Encapsulates an LanguageCode
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IUserSettings">
+            <summary>
+                Encapsulates a UserSetting Entity
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Security.IEncryption">
+            <summary>   
+                encrypt or decrypt values
+            </summary>
+        </member>
+        <member name="T:CRM.Core.Security.OrganizationDependentEncryption">
+            <summary>
+                encrypt or decrypt values
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Security.OrganizationDependentEncryption.#ctor(CRM.Core.IOrganizationId)">
+            <summary>
+                Initialisiert eine neue Instanz der <see cref="T:System.Object" />-Klasse.
+            </summary>
+        </member>
+        <member name="T:CRM.Core.OrganizationServiceDependentOrganizationId">
+            <summary>
+                Gets the OrganizationId using a WhoAmIRequest and the passed instance of organizationService.
+            </summary>
+        </member>
+        <member name="M:CRM.Core.OrganizationServiceDependentOrganizationId.#ctor(Microsoft.Xrm.Sdk.IOrganizationService)">
+            <summary>
+            </summary>
+            <param name="organizationService"></param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="P:CRM.Core.OrganizationServiceDependentOrganizationId.Value">
+            <summary>
+                Value
+            </summary>
+        </member>
+        <member name="T:CRM.Core.IOrganizationId">
+            <summary>
+                Gets the Id of a CRM Organization.
+            </summary>
+        </member>
+        <member name="T:CRM.Core.SpecificColumnsColumnSet">
+            <summary>
+                Encapsulates a Columnset
+            </summary>
+        </member>
+        <member name="M:CRM.Core.SpecificColumnsColumnSet.#ctor(System.String[])">
+            <summary>
+                Initialisiert eine neue Instanz der <see cref="T:System.Object" />-Klasse.
+            </summary>
+        </member>
+        <member name="P:CRM.Core.SpecificColumnsColumnSet.Value">
+            <summary>
+                Returns ColumnSet
+            </summary>
+        </member>
+        <member name="T:CRM.Core.OrganizationServiceDependentUserSettings">
+            <summary>
+                Retrieves UserSettings based on current user
+            </summary>
+        </member>
+        <member name="M:CRM.Core.OrganizationServiceDependentUserSettings.#ctor(Microsoft.Xrm.Sdk.IOrganizationService,CRM.Core.IColumnSet)">
+            <summary />
+            <param name="organizationService"></param>
+            <param name="userSettingsColumnSet"></param>
+        </member>
+        <member name="P:CRM.Core.OrganizationServiceDependentUserSettings.NonCachedValue">
+            <summary>
+                Retrieved UserSettings
+            </summary>
+        </member>
+        <member name="T:CRM.Core.FromUserSettingsUserLanguageCode">
+            <summary>
+                Returns Attribute uilanguageid from given UserSetting Entity
+            </summary>
+        </member>
+        <member name="M:CRM.Core.FromUserSettingsUserLanguageCode.#ctor(CRM.Core.IUserSettings)">
+            <summary />
+            <param name="entity"></param>
+        </member>
+        <member name="P:CRM.Core.FromUserSettingsUserLanguageCode.Value">
+            <summary>
+                Value
+            </summary>
+        </member>
+        <member name="T:CRM.Core.EntityComparer">
+            <summary>
+                Use this class to check two instances of type Entity on equality.
+            </summary>
+        </member>
+        <member name="M:CRM.Core.EntityComparer.Equals(Microsoft.Xrm.Sdk.Entity,Microsoft.Xrm.Sdk.Entity)">
+            <summary>
+                Compares two entites
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRM.Core.EntityComparer.GetHashCode(Microsoft.Xrm.Sdk.Entity)">
+            <summary>
+                returns Hashcode of Id
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRM.Core.UpdateEntityAttributes">
+            <summary>
+                Update attributes from entity (target)
+            </summary>
+        </member>
+        <member name="M:CRM.Core.UpdateEntityAttributes.#ctor(CRM.Core.IEntity,CRM.Core.IAttributeCollection)">
+            <summary>
+                Constructor
+            </summary>
+            <param name="entity">Entity to update attributes.</param>
+            <param name="attributesForEntityToUpdate">Attributes to update.</param>
+        </member>
+        <member name="M:CRM.Core.UpdateEntityAttributes.Run">
+            <summary>
+                Run
+            </summary>
+        </member>
+        <member name="T:CRM.Core.ValidateCrmSolutionLicense">
+            <summary>
+                Validate CRM product license by Azure Logic app with a 10 times retry logic
+            </summary>
+        </member>
+        <member name="M:CRM.Core.ValidateCrmSolutionLicense.#ctor(CRM.Core.IExecuteCrmSolutionLicenseRequest,CRM.Core.IWait)">
+            <summary>
+                Constructor
+            </summary>
+            <param name="executeCrmSolutionLicenseRequest"></param>
+            <param name="wait">Wait</param>
+        </member>
+        <member name="P:CRM.Core.ValidateCrmSolutionLicense.Value">
+            <summary>
+                Validate  product license
+            </summary>
+            <returns>Result from license validation</returns>
+        </member>
+        <member name="T:CRM.Core.Wait">
+            <summary>
+                Logic execution waits for given seconds
+            </summary>
+        </member>
+        <member name="M:CRM.Core.Wait.RunFor(System.Int32)">
+            <summary>
+                Run for object value.
+            </summary>
+            <param name="value">Milliseconds to wait</param>
+        </member>
+    </members>
+</doc>

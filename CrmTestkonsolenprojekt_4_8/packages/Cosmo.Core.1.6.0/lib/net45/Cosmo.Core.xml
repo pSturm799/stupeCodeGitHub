@@ -1,0 +1,592 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cosmo.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Cosmo.Core.CachedValueFor`2">
+            <inheritdoc cref="T:Cosmo.Core.ICachedValueFor`2" />
+            <summary>
+                Abstract base class for value caching
+                (Cached value)
+            </summary>
+            <typeparam name="TIn"></typeparam>
+            <typeparam name="TOut"></typeparam>
+        </member>
+        <member name="M:Cosmo.Core.CachedValueFor`2.#ctor">
+            <summary />
+        </member>
+        <member name="M:Cosmo.Core.CachedValueFor`2.#ctor(System.Boolean)">
+            <inheritdoc />
+            <summary />
+            <param name="cacheDefaultValue"></param>
+        </member>
+        <member name="M:Cosmo.Core.CachedValueFor`2.ValueFor(`0)">
+            <inheritdoc />
+            <summary>(Cached Value)</summary>
+        </member>
+        <member name="M:Cosmo.Core.CachedValueFor`2.ResetCache">
+            <inheritdoc>
+                <cref></cref>
+            </inheritdoc>
+            <summary>
+                Resets the Cache
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.CachedValueFor`2.NonCachedValueFor(`0)">
+            <summary />
+            <param name="value"></param>
+            <returns />
+        </member>
+        <member name="P:Cosmo.Core.CachedValueFor`2.AllValues">
+            <summary>
+                Returns all Values currently saved in the Caching Dictionary
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.CachedWritableValue`1">
+            <summary>
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:Cosmo.Core.CachedWritableValue`1.Value">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.CachedWritableValue`1.SaveValue(`0)">
+            <summary>
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="T:Cosmo.Core.IBool">
+            <inheritdoc />
+            <summary>
+                Generic Interface construct to encapsulate Classes without Interfaces
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.IDisposableCachedValue`1">
+            <summary>
+                (Cached value) with IDisposable implemented
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:Cosmo.Core.IMessageCompression">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.IMessageCompression.Compress(System.Byte[])">
+            <summary>
+                Compresses byte array to new byte array.
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.IMessageCompression.Decompress(System.Byte[])">
+            <summary>
+                Decompresses byte array to new byte array.
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.MessageCompression">
+            <summary>
+                Helper class to provide MessageCompression
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.MessageCompression.Compress(System.Byte[])">
+            <summary>
+                Compresses byte array to new byte array.
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.MessageCompression.Decompress(System.Byte[])">
+            <summary>
+                Decompresses byte array to new byte array.
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.DateTimeExtensions">
+            <summary>
+                Class to provide extensions to DateTime
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.DateTimeExtensions.GetWeekOfYearByCurrentCulture(System.DateTime)">
+            <summary>
+                Provides the calendar week if the provided DateTime object by DateTimeFormatInfor.CurentInfo
+            </summary>
+            <param name="dateTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Cosmo.Core.DateTimeExtensions.GetWeekOfYearForCulture(System.DateTime,System.String)">
+            <summary>
+                Provides the calendar week if the provided DateTime object by CultureInfo of the provided cultureInfoName ("de-DE",
+                "en-US")
+            </summary>
+            <param name="dateTime"></param>
+            <param name="cultureInfoName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Cosmo.Core.EncodingExtensions">
+            <summary>
+                EncodingExtensions
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.EncodingExtensions.DetectTextEncoding(System.Byte[],System.String@,System.Int32)">
+            <summary>
+                Function to detect the encoding for UTF-7, UTF-8/16/32 (bom, no bom, little
+                &amp; big endian), and local default codepage, and potentially other codepages.
+                'taster' = number of bytes to check of the file (to save processing). Higher
+                value is slower, but more reliable(especially UTF-8 with special characters
+                later on may appear to be ASCII initially). If taster = 0, then taster
+                becomes the length of the file(for maximum reliability). 'text' is simply
+                the string with the discovered encoding applied to the file.
+            </summary>
+            <param name="fromBase64ByteArray"></param>
+            <param name="text"></param>
+            <param name="taster"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Cosmo.Core.Error">
+            <summary>
+                Default Error Class
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.Error.#ctor(System.Int32,System.String)">
+            <summary />
+            <param name="code"></param>
+            <param name="message"></param>
+        </member>
+        <member name="P:Cosmo.Core.Error.Code">
+            <summary>
+                Code
+            </summary>
+        </member>
+        <member name="P:Cosmo.Core.Error.Message">
+            <summary>
+                Message
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.ICachedValueFor`2">
+            <summary>
+                Generic Interface construct to encapsulate cached Classes without Interfaces
+            </summary>
+            <typeparam name="TIn"></typeparam>
+            <typeparam name="TOut"></typeparam>
+        </member>
+        <member name="T:Cosmo.Core.IComponent`1">
+            <summary>
+                Interface for Components
+            </summary>
+            <typeparam name="TOut"></typeparam>
+        </member>
+        <member name="M:Cosmo.Core.IComponent`1.BuildComponent">
+            <summary>
+                Method for building the component of the defined type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Cosmo.Core.IDecimal">
+            <inheritdoc />
+            <summary>
+                Generic Interface construct to encapsulate Classes without Interfaces
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.IDouble">
+            <inheritdoc />
+            <summary>
+                Generic Interface construct to encapsulate Classes without Interfaces
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.IError">
+            <summary>
+                Encapsulates an Error
+            </summary>
+        </member>
+        <member name="P:Cosmo.Core.IError.Code">
+            <summary>
+                Error Code
+            </summary>
+        </member>
+        <member name="P:Cosmo.Core.IError.Message">
+            <summary>
+                Error Message
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.IErrorExtendedValue`1">
+            <summary>
+                IValue Extending IError
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:Cosmo.Core.IErrorExtendedValue`1.ErrorValue">
+            <summary>
+                Error Value
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.CachedValue`1">
+            <summary>
+                Abstract base class for value caching
+                (Cached value)
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Cosmo.Core.CachedValue`1.#ctor(System.Boolean)">
+            <summary>
+                Initialisiert eine neue Instanz der <see cref="T:System.Object" />-Klasse.
+            </summary>
+            <param name="cacheTypeDefaultValue">
+                A <see cref="T:System.Boolean" />-value indicating if the default value of the Type T should be cached.
+                Default: true
+            </param>
+        </member>
+        <member name="M:Cosmo.Core.CachedValue`1.#ctor">
+            <summary>
+                Initialisiert eine neue Instanz der <see cref="T:System.Object" />-Klasse.
+            </summary>
+        </member>
+        <member name="P:Cosmo.Core.CachedValue`1.NonCachedValue">
+            <summary>
+                Value
+            </summary>
+        </member>
+        <member name="P:Cosmo.Core.CachedValue`1.Value">
+            <summary>
+                (Cached Value)
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.CachedValue`1.ResetCache">
+            <summary>
+                Resets the Cached Value
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.Converters.Base64ConvertToStringMethodInjectedConverter">
+            <summary>
+                Convert a Base64-String to a readable string
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.Converters.Base64ConvertToStringMethodInjectedConverter.#ctor(Cosmo.Core.Converters.IByteArrayToAutoEncodedStringMethodInjectedConverter)">
+            <summary>
+                Constructor
+            </summary>
+            <param name="byteArrayToAutoEncodedString"></param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="M:Cosmo.Core.Converters.Base64ConvertToStringMethodInjectedConverter.Convert(System.String)">
+            <summary>Value</summary>
+        </member>
+        <member name="T:Cosmo.Core.Converters.ByteArrayToAutoEncodedStringConstructorInjectedConverter">
+            <inheritdoc />
+        </member>
+        <member name="M:Cosmo.Core.Converters.ByteArrayToAutoEncodedStringConstructorInjectedConverter.#ctor(System.Byte[],Cosmo.Core.Converters.IByteArrayToAutoEncodedStringMethodInjectedConverter)">
+            <summary>
+                Initialisiert eine neue Instanz der <see cref="T:System.Object" />-Klasse.
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.Converters.ByteArrayToAutoEncodedStringConstructorInjectedConverter.Convert">
+            <inheritdoc />
+        </member>
+        <member name="T:Cosmo.Core.Converters.ByteArrayToAutoEncodedStringMethodInjectedConverter">
+            <inheritdoc />
+        </member>
+        <member name="M:Cosmo.Core.Converters.ByteArrayToAutoEncodedStringMethodInjectedConverter.#ctor">
+            <summary>
+                Initialisiert eine neue Instanz der <see cref="T:System.Object" />-Klasse.
+                Set count of characters to analyze to 1000 by default. Will be reset to input-Array size
+                during runtime if array-size is less than taster value.
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.Converters.ByteArrayToAutoEncodedStringMethodInjectedConverter.#ctor(System.Int32)">
+            <summary>
+                Initialisiert eine neue Instanz der <see cref="T:System.Object" />-Klasse.
+                <param name="taster">
+                    Count of characters to analyze. Is set to 1000 by default. Will be reset to input-Array size
+                    during runtime if array-size is less than taster value.
+                </param>
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.Converters.FromByteArrayGetEncodingMethodInjected">
+            <summary>
+                Returns the string-encoding of a byte array
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.Converters.FromByteArrayGetEncodingMethodInjected.#ctor">
+            <summary>
+                Initialisiert eine neue Instanz der <see cref="T:System.Object" />-Klasse.
+                Set count of characters to analyze to 1000 by default. Will be reset to input-Array size
+                during runtime if array-size is less than taster value.
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.Converters.FromByteArrayGetEncodingMethodInjected.#ctor(System.Int32)">
+            <summary>
+                Initialisiert eine neue Instanz der <see cref="T:System.Object" />-Klasse.
+                <param name="taster">
+                    Count of characters to analyze. Is set to 1000 by default. Will be reset to input-Array size
+                    during runtime if array-size is less than taster value.
+                </param>
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.Converters.FromByteArrayGetEncodingMethodInjected.ValueFor(System.Byte[])">
+            <inheritdoc />
+        </member>
+        <member name="T:Cosmo.Core.Converters.IBase64ConvertToStringMethodInjectedConverter">
+            <summary>
+                Convert a Base64-String to a readable string
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.Converters.IByteArrayToAutoEncodedStringMethodInjectedConverter">
+            <inheritdoc />
+        </member>
+        <member name="T:Cosmo.Core.Converters.IConstructorInjectedConverter`2">
+            <summary>
+            </summary>
+            <typeparam name="TIn"></typeparam>
+            <typeparam name="TOut"></typeparam>
+        </member>
+        <member name="M:Cosmo.Core.Converters.IConstructorInjectedConverter`2.Convert">
+            <summary>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Cosmo.Core.Converters.IConvertToBase64MethodInjectedConverter`1">
+            <summary>
+                Interface for converting a string to
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.Converters.IConvertToBase64MethodInjectedConverter`1.Convert(`0,System.Text.Encoding)">
+            <summary>
+                Converts the passed value to a base64-string using the specified encoding
+            </summary>
+            <param name="value"></param>
+            <param name="encoding"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Cosmo.Core.Converters.IGetEncodingMethodInjected`1">
+            <summary>
+                Returns the Encoding of a passed type
+            </summary>
+            <typeparam name="TIn"></typeparam>
+        </member>
+        <member name="T:Cosmo.Core.Converters.IMethodInjectedConverter`2">
+            <summary>
+            </summary>
+            <typeparam name="TIn"></typeparam>
+            <typeparam name="TOut"></typeparam>
+        </member>
+        <member name="M:Cosmo.Core.Converters.IMethodInjectedConverter`2.Convert(`0)">
+            <summary>
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Cosmo.Core.Converters.StringConvertToBase64MethodInjectedConverter">
+            <summary>
+                Convert a readable string to a Base64-String
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.Converters.StringConvertToBase64MethodInjectedConverter.Convert(System.String,System.Text.Encoding)">
+            <summary>
+                Converts the passed value to a base64-string using the specified encoding
+            </summary>
+            <param name="value"></param>
+            <param name="encoding"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Cosmo.Core.DisposableCachedValue`1">
+            <summary>
+                Abstract base class for value caching
+                (Cached value)
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Cosmo.Core.DisposableCachedValue`1.#ctor(System.Boolean)">
+            <summary>
+                Initialisiert eine neue Instanz der <see cref="T:System.Object" />-Klasse.
+            </summary>
+            <param name="cacheTypeDefaultValue">
+                A <see cref="T:System.Boolean" />-value indicating if the default value of the Type T should be cached.
+                Default: true
+            </param>
+        </member>
+        <member name="M:Cosmo.Core.DisposableCachedValue`1.#ctor">
+            <summary>
+                Initialisiert eine neue Instanz der <see cref="T:System.Object" />-Klasse.
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.DisposableCachedValue`1.Dispose">
+            <summary>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</summary>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="T:Cosmo.Core.ICachedValue`1">
+            <summary>
+                (Cached value)
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Cosmo.Core.ICachedValue`1.ResetCache">
+            <summary>
+                Reset Cache
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.IDisposableAddOns">
+            <inheritdoc cref="T:Cosmo.Core.IAddOns" />
+            <inheritdoc cref="T:System.IDisposable" />
+        </member>
+        <member name="T:Cosmo.Core.IExecutionMain">
+            <summary>
+                Interface used by any Plugin or Custom Workflow Activity as return parameter of method BuildCompositionRoot.
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.IExecutionMainWithReturnValue`1">
+            <summary>
+                Interface used by any business logic as return parameter of method BuildCompositionRoot.
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.IGuid">
+            <inheritdoc />
+            <summary>
+                Generic Interface construct to encapsulate Classes without Interfaces
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.IInt">
+            <inheritdoc />
+            <summary>
+                Generic Interface construct to encapsulate Classes without Interfaces
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.IRunFor`1">
+            <summary>
+                Encapsulates a logic with Parameter without Return type
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.IRunFor`1.RunFor(`0)">
+            <summary>
+                Runs the logic
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="T:Cosmo.Core.IRunWithReturnValue`1">
+            <summary>
+                Interface used by any Component as return parameter of method BuildCompositionRoot.
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.IRunWithReturnValue`1.Run">
+            <summary>
+                Runs the logic and
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.IString">
+            <inheritdoc />
+            <summary>
+                Generic Interface construct to encapsulate Classes without Interfaces
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.IValueFor`2">
+            <summary>
+                Generic Interface construct to encapsulate Classes without Interfaces
+            </summary>
+            <typeparam name="TOut"></typeparam>
+            <typeparam name="TIn"></typeparam>
+        </member>
+        <member name="M:Cosmo.Core.IValueFor`2.ValueFor(`0)">
+            <summary>Value</summary>
+        </member>
+        <member name="T:Cosmo.Core.IWritableValue`1">
+            <inheritdoc />
+            <summary>
+                Writable Value
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:Cosmo.Core.IWritableValue`1.Value">
+            <inheritdoc cref="T:Cosmo.Core.IValue`1" />
+        </member>
+        <member name="T:Cosmo.Core.IRun">
+            <summary>
+                Encapsulates a logic without Return type
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.IRun.Run">
+            <summary>
+                Runs the logic
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.IValue`1">
+            <summary>
+                Generic Interface construct to encapsulate Classes without Interfaces
+            </summary>
+            <typeparam name="TOut"></typeparam>
+        </member>
+        <member name="P:Cosmo.Core.IValue`1.Value">
+            <summary>
+                Value
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.IHandle">
+            <summary>
+                Generic Interface construct to encapsulate Classes without Interfaces
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.IAddOns">
+            <summary>
+                Array of IHandle
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.StaticCachedValue`1">
+            <summary>
+                Caches a value during a defined amount of time.
+            </summary>
+            <typeparam name="T">The type of the value to be cached</typeparam>
+        </member>
+        <member name="F:Cosmo.Core.StaticCachedValue`1.CachedValueDic">
+            <summary>
+                Cached userIds.
+            </summary>
+        </member>
+        <member name="F:Cosmo.Core.StaticCachedValue`1.UntilCacheIsValid">
+            <summary>
+                Cache is valid - time.
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.StaticCachedValue`1.#ctor(System.Func{System.DateTime})">
+            <summary>Initializes a new instance of the <see cref="T:System.Object" /> class.</summary>
+        </member>
+        <member name="M:Cosmo.Core.StaticCachedValue`1.#ctor(System.Func{System.DateTime},System.Boolean)">
+            <summary>Initializes a new instance of the <see cref="T:System.Object" /> class.</summary>
+        </member>
+        <member name="P:Cosmo.Core.StaticCachedValue`1.NonCachedValue">
+            <summary>
+                The Code to be executed if the value is not already cached.
+            </summary>
+        </member>
+        <member name="P:Cosmo.Core.StaticCachedValue`1.Value">
+            <summary>
+                User-ids to avoid the creation of access-validations for (cached).
+            </summary>
+        </member>
+        <member name="M:Cosmo.Core.StaticCachedValue`1.ResetCache">
+            <inheritdoc />
+        </member>
+        <member name="M:Cosmo.Core.StaticCachedValue`1.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="T:Cosmo.Core.IHandle`2">
+            <inheritdoc />
+            <summary>
+                Generic Interface construct to encapsulate Classes without Interfaces
+            </summary>
+            <typeparam name="TMessage"></typeparam>
+            <typeparam name="TResult"></typeparam>
+        </member>
+        <member name="M:Cosmo.Core.IHandle`2.Handle(`0)">
+            <summary>
+                Handle
+            </summary>
+        </member>
+        <member name="T:Cosmo.Core.IHandle`1">
+            <inheritdoc />
+            <summary>
+                Generic Interface construct to encapsulate Classes without Interfaces
+            </summary>
+            <typeparam name="TMessage"></typeparam>
+        </member>
+        <member name="M:Cosmo.Core.IHandle`1.Handle(`0)">
+            <summary>
+                Handle
+            </summary>
+        </member>
+    </members>
+</doc>
