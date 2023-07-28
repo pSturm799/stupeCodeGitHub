@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ISWgGB+Y5QD4laSy9CHnerNA4PFnoBbBIe5/KfcI35kEWFS3j6TPOMNju/VAtbzIdp5ttkLpg+wDIFUW/a2nEw==",
+  "dgSpecHash": "/f5ImPcETQdQo0J/uXywi/CMWQSAx/cjuGaL+jIZfsDdO+L7QvBy1yGvHNYopowYTqTxUVrxS+8cL4PyXaJLmQ==",
   "success": true,
   "projectFilePath": "C:\\GitPrivat\\stupeCodeGitHub\\WebserviceTestprojekt\\ConsoleApp_WebserviceTest\\ConsoleApp_WebserviceTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\psturm8576\\.nuget\\packages\\cosmo.core\\1.5.1\\cosmo.core.1.5.1.nupkg.sha512",
     "C:\\Users\\psturm8576\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\psturm8576\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
-    "C:\\Users\\psturm8576\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+    "C:\\Users\\psturm8576\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
   ],
   "logs": []
 }

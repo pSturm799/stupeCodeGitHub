@@ -12,7 +12,7 @@ namespace ConsoleApp_WebserviceTest
         {
             try
             {
-                UseHttpClient.CallRestWithHttpClinet();
+                UseHttpClientFactory.CallRestWithHttpClinet();
             }
             catch (Exception e)
             {

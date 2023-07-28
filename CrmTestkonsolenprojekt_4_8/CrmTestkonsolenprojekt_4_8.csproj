@@ -95,6 +95,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions.cs" />
     <Compile Include="Core\ExecuteOrganizationRequest.cs" />
     <Compile Include="Core\IDateTime.cs" />
     <Compile Include="Core\IExecuteOrganizationRequestExtended.cs" />
@@ -103,6 +104,7 @@
     <Compile Include="Core\LocalTimeFromUtcTimeRequestByTimeZoneCode.cs" />
     <Compile Include="Core\LocalTimeFromUtcTimeResponseLocalTime.cs" />
     <Compile Include="CrmTestumgebung.cs" />
+    <Compile Include="Model\DaysPerMonthModel.cs" />
     <Compile Include="Model\SyncIntDurationWithDecimalSettingsModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net.Security;
 using System.Security.Cryptography.X509Certificates;
 using System.Text.RegularExpressions;
+using CrmTestkonsolenprojekt_4_8.Model;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Query;
 using Microsoft.Xrm.Tooling.Connector;
@@ -19,21 +20,22 @@ namespace CrmTestkonsolenprojekt_4_8
             //RegexAction();
             //CreatePdf();
             //HandleHashCode();
-            //return;
+            //CalcDaysPerMonthWithExamples();
 
 
             bool onlineCrm = true;
 
 
-            //var url = "https://dev-we.crm4.dynamics.com/" /*Wien Energie*/;
             //var url = "https://vsdev-lkwwalter.dev.gc/developctx"; /*CTX dev V8*/
             //var url = "https://vsdev-ctxv9.dev.gc/developctx"; /*CTX dev V9*/
-            var url = "https://werkstatt40-dev.crm4.dynamics.com/"; // Strabag dev V9
+            //var url = "https://werkstatt40-dev.crm4.dynamics.com/"; // Strabag dev V9
+            //var url = "https://cosmoconsultsimodulteamsales.crm4.dynamics.com"; // Sales Test Umgebung CC
+            var url = "https://orgfe12f702.crm.dynamics.com/"; // CC Testumgebung Develop CFTStupe
 
             string crmConnectionString;
             if (onlineCrm)
             {
-                bool useClientSecret = true;
+                bool useClientSecret = false;
                 if (useClientSecret)
                 {
                     var clientId = "f3310a2e-e28c-4552-9f75-6ccdababaafe" /*Strabag*/; //"65c9ec34-41d3-41af-9b73-896eb494cbf1";
@@ -44,10 +46,15 @@ namespace CrmTestkonsolenprojekt_4_8
                 }
                 else
                 {
-                    var userName = "nstpe6@wstw.energy-it.net";
-                    var password = "WE_Stupe_NM3";
+                    var userName = "demouser1@cosmoconsultsidemo.onmicrosoft.com";
+                    var password = "+KwWloO%DOE$eUf7GF's";
 
-                    crmConnectionString = $"authtype=Office365;url={url};Username={userName};Password={password}";
+                    crmConnectionString = $"AuthType=Office365;Url={url};Username={userName};Password={password}";
+                    //AuthType = Office365; Url = https://cosmoconsultsimodulteamsales.crm4.dynamics.com;Username=demouser1@cosmoconsultsidemo.onmicrosoft.com;Password=********
+
+
+                    crmConnectionString =
+                        "AuthType=OAuth;Url=https://orgfe12f702.crm.dynamics.com/;Username=p.sturm@cosmoconsult.com;ClientId={51f81489-12ee-4a9e-aaae-a2591f45987d};LoginPrompt=Auto;RedirectUri=app://58145b91-0c36-4500-8554-080854f2ac97/;";
                 }
             }
             else
@@ -66,6 +73,70 @@ namespace CrmTestkonsolenprojekt_4_8
             {
                 var organizationService = crmServiceClient; // (IOrganizationService) new OrganizationServiceProxy(uri, null, crmServiceClient, null);
 
+
+                #region Retrieve
+
+                //var account = organizationService.Retrieve("account", Guid.Parse("0a56f8ba-4a25-ee11-9cbd-000d3a5a7d98"), new ColumnSet("telephone1", "fax"));
+                //var faxIsTrue = account.Contains("fax"); // returns false if field is empty
+                //var telIsTrue = account.Contains("telephone1");
+
+                #endregion
+
+
+                #region Read Environment Variables
+
+                //// get Environment Variables from type "secret"
+                //var organizationRequest = new OrganizationRequest("RetrieveEnvironmentVariableSecretValue") // call Action
+                //                          {
+                //                              ["EnvironmentVariableName"] = "ps_Test"
+                //                          };
+                //var orgaResponse = organizationService.Execute(organizationRequest);
+                //var result = orgaResponse.Results["EnvironmentVariableSecretValue"];
+
+
+                //// get "normal" Environment Variables
+                //var envVariables = new Dictionary<string, string>();
+
+                //var queryToGetEnvironmentVariableDefinition = new QueryExpression("environmentvariabledefinition")
+                //                                              {
+                //                                                  ColumnSet = new ColumnSet("statecode", "defaultvalue", "valueschema",
+                //                                                      "schemaname", "environmentvariabledefinitionid", "type"),
+                //                                                  LinkEntities =
+                //                                                  {
+                //                                                      new LinkEntity
+                //                                                      {
+                //                                                          JoinOperator = JoinOperator.LeftOuter,
+                //                                                          LinkFromEntityName = "environmentvariabledefinition",
+                //                                                          LinkFromAttributeName = "environmentvariabledefinitionid",
+                //                                                          LinkToEntityName = "environmentvariablevalue",
+                //                                                          LinkToAttributeName = "environmentvariabledefinitionid",
+                //                                                          Columns = new ColumnSet("statecode", "value", "environmentvariablevalueid"),
+                //                                                          EntityAlias = "v"
+                //                                                      }
+                //                                                  }
+                //                                              };
+
+                //var results = organizationService.RetrieveMultiple(queryToGetEnvironmentVariableDefinition);
+                //if (results?.Entities.Count > 0)
+                //{
+                //    foreach (var entity2 in results.Entities)
+                //    {
+                //        var schemaName = entity2.GetAttributeValue<string>("schemaname");
+                //        var value = entity2.GetAttributeValue<AliasedValue>("v.value")?.Value?.ToString();
+                //        var defaultValue = entity2.GetAttributeValue<string>("defaultvalue");
+                //        if (schemaName.Equals("cos_pstest") || schemaName.Equals("cos_Test"))
+                //        {
+                //            var val = defaultValue;
+                //        }
+
+                //        if (schemaName != null && !envVariables.ContainsKey(schemaName))
+                //        {
+                //            envVariables.Add(schemaName, string.IsNullOrEmpty(value) ? defaultValue : value);
+                //        }
+                //    }
+                //}
+
+                #endregion
 
                 #region Create/Delete n:n relations (Associate, Disassociate)
 
@@ -373,9 +444,10 @@ namespace CrmTestkonsolenprojekt_4_8
 
                 #region Get Statusgrund Labelnames (ohne Metadata retrieve)
 
-                //var result = organizationService.Retrieve("opportunity", new Guid("CB54AD4B-62E0-EA11-9386-00155D840D1B"), new ColumnSet("statuscode"));
-                //var fb = result.FormattedValues["statuscode"];
-                //var name = fb;
+                //var result = organizationService.Retrieve("cos_mietunterbrechung", new Guid("1ab9f1e5-3c0c-ee11-8f6e-000d3aaac3d1"), new ColumnSet("cos_reason", "cos_from"));
+                //var fb = (result.FormattedValues.Any() && result.FormattedValues.Contains("cos_reason")) ? result.FormattedValues["cos_reason"] : "";
+                //var from = (result.FormattedValues.Any() && result.FormattedValues.Contains("cos_from")) ? result.FormattedValues["cos_from"] : "";
+                //var name2 = "s";
 
                 #endregion
 
@@ -598,6 +670,150 @@ namespace CrmTestkonsolenprojekt_4_8
             Console.ReadKey();
         }
 
+
+        private static void CalcDaysPerMonthWithExamples()
+        {
+            //Info: Tuple<startDate, endDate, expectecDays>
+            Tuple<DateTime, DateTime, int[]>[] inputValues =
+            {
+                Tuple.Create(new DateTime(2023, 1, 1), new DateTime(2023, 1, 1), new int[1] { 1 }),
+                Tuple.Create(new DateTime(2023, 1, 1), new DateTime(2023, 1, 2), new int[1] { 2 }),
+                Tuple.Create(new DateTime(2023, 1, 1), new DateTime(2023, 1, 31), new int[1] { 30 }),
+                Tuple.Create(new DateTime(2023, 1, 1), new DateTime(2023, 4, 30), new int[4] { 30, 30, 30, 30 }),
+                Tuple.Create(new DateTime(2023, 1, 18), new DateTime(2023, 1, 31), new int[1] { 14 }),
+                Tuple.Create(new DateTime(2023, 1, 18), new DateTime(2023, 1, 20), new int[1] { 3 }),
+                Tuple.Create(new DateTime(2023, 1, 1), new DateTime(2023, 3, 31), new int[3] { 30, 30, 30 }),
+                Tuple.Create(new DateTime(2023, 2, 1), new DateTime(2023, 2, 28), new int[1] { 30 }),
+                Tuple.Create(new DateTime(2023, 2, 1), new DateTime(2023, 2, 27), new int[1] { 27 }),
+                Tuple.Create(new DateTime(2023, 2, 20), new DateTime(2023, 2, 28), new int[1] { 9 }),
+                Tuple.Create(new DateTime(2024, 2, 1), new DateTime(2024, 2, 29), new int[1] { 30 }),
+                Tuple.Create(new DateTime(2023, 2, 1), new DateTime(2024, 2, 29), new int[13] { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 }),
+                Tuple.Create(new DateTime(2024, 2, 1), new DateTime(2024, 2, 28), new int[1] { 28 }), // Feb. hat 2024 29 Tage
+                Tuple.Create(new DateTime(2023, 1, 1), new DateTime(2023, 1, 31), new int[1] { 30 }),
+                Tuple.Create(new DateTime(2023, 1, 1), new DateTime(2023, 1, 30), new int[1] { 30 }),
+                Tuple.Create(new DateTime(2023, 1, 1), new DateTime(2023, 1, 29), new int[1] { 29 }),
+                Tuple.Create(new DateTime(2023, 5, 18), new DateTime(2023, 5, 31), new int[1] { 14 }),
+                Tuple.Create(new DateTime(2022, 12, 26), new DateTime(2023, 1, 9), new int[2] { 6, 9 }),
+                Tuple.Create(new DateTime(2022, 11, 26), new DateTime(2023, 2, 9), new int[4] { 5, 30, 30, 9 }),
+                Tuple.Create(new DateTime(2022, 12, 25), new DateTime(2023, 4, 14), new int[5] { 7, 30, 30, 30, 14 }),
+                Tuple.Create(new DateTime(2022, 12, 30), new DateTime(2023, 4, 14), new int[5] { 2, 30, 30, 30, 14 }),
+                Tuple.Create(new DateTime(2022, 12, 9), new DateTime(2023, 4, 14), new int[5] { 23, 30, 30, 30, 14 }),
+                Tuple.Create(new DateTime(2023, 1, 26), new DateTime(2023, 3, 9), new int[3] { 6, 30, 9 }),
+                Tuple.Create(new DateTime(2023, 1, 30), new DateTime(2023, 3, 3), new int[3] { 2, 30, 3 }),
+                Tuple.Create(new DateTime(2022, 1, 30), new DateTime(2023, 1, 3), new int[13] { 2, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 3 }),
+            };
+
+            CalcDaysPerMonth(inputValues);
+        }
+
+
+        /// <summary>
+        ///     One complete month = 30 days
+        /// </summary>
+        private static void CalcDaysPerMonth(Tuple<DateTime, DateTime, int[]>[] examples)
+        {
+            foreach (var example in examples)
+            {
+                DateTime startDate = example.Item1;
+                DateTime endDate = example.Item2;
+                var expDaysPerMonth = example.Item3;
+
+                var numberOfMonths = startDate.CountMonthBetweenDates(endDate);
+                var daysPerMonthList = new List<DaysPerMonthModel>();
+                var tempStartDate = startDate;
+                var tempEndDate = endDate;
+
+                int totalDays = -1;
+                if (startDate.Equals(endDate))
+                {
+                    totalDays = 1;
+                    Console.WriteLine($"StartDate: {startDate.Date} EndDate: {endDate.Date} Number of days for month 1: {totalDays}");
+                    daysPerMonthList.Add(new DaysPerMonthModel
+                                         {
+                                             DaysPerMonth = totalDays,
+                                             Month = tempStartDate.Month,
+                                             Year = tempStartDate.Year
+                                         });
+                }
+                else
+                {
+                    for (int currentMonth = 1; currentMonth <= numberOfMonths; currentMonth++)
+                    {
+                        bool startDateIsFirstOfMonth = tempStartDate.IsStartOfMonth();
+                        bool endDateIsLastOfMonth = tempEndDate.IsEndOfMonth();
+
+                        if (startDateIsFirstOfMonth && endDateIsLastOfMonth)
+                        {
+                            totalDays = 30;
+                        }
+                        else if (!startDateIsFirstOfMonth && endDateIsLastOfMonth)
+                        {
+                            if (tempStartDate.Month.Equals(endDate.Month) && tempStartDate.Year.Equals(endDate.Year))
+                            {
+                                totalDays = (endDate - tempStartDate).Days + 1;
+                            }
+                            else
+                            {
+                                totalDays = (tempStartDate.EndOfMonth() - startDate).Days + 1;
+                                tempStartDate = tempStartDate.StartOfMonth();
+                            }
+                        }
+                        else if (startDateIsFirstOfMonth)
+                        {
+                            if (tempStartDate.Month.Equals(endDate.Month) && tempStartDate.Year.Equals(endDate.Year))
+                            {
+                                totalDays = (endDate - tempStartDate).Days + 1;
+                            }
+                            else
+                            {
+                                totalDays = 30;
+                            }
+                        }
+                        else //if (!firstMonthIsComplete && !lastMonthIsComplete)
+                        {
+                            if (currentMonth.Equals(1))
+                            {
+                                if (tempStartDate.Month.Equals(endDate.Month) && tempStartDate.Year.Equals(endDate.Year))
+                                {
+                                    totalDays = (endDate - tempStartDate).Days + 1;
+                                }
+                                else
+                                {
+                                    var endOfMonth = startDate.EndOfMonth();
+                                    totalDays = (endOfMonth - startDate).Days + 1;
+                                    tempStartDate = tempStartDate.StartOfMonth();
+                                }
+                            }
+                        }
+
+                        if (!totalDays.Equals(expDaysPerMonth[currentMonth - 1]))
+                        {
+                            throw new InvalidOperationException("TotalDays per Month is false");
+                        }
+
+                        daysPerMonthList.Add(new DaysPerMonthModel
+                                             {
+                                                 DaysPerMonth = totalDays,
+                                                 Month = tempStartDate.Month,
+                                                 Year = tempStartDate.Year
+                                             });
+                        tempStartDate = tempStartDate.AddMonths(1);
+                        tempEndDate = tempStartDate.EndOfMonth();
+
+                        if (tempEndDate > endDate)
+                        {
+                            tempEndDate = endDate;
+                        }
+
+                        Console.WriteLine($"StartDate: {startDate.Date} EndDate: {endDate.Date} Number of days for month 1: {totalDays}");
+                    }
+                }
+            }
+
+
+            Console.ReadLine();
+        }
+
         private static void RegexAction()
         {
             var regex = "(?!^\\+)[^0-9]";
@@ -778,15 +994,6 @@ namespace CrmTestkonsolenprojekt_4_8
         private bool OnServerCertificateValidationCallback(object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors errors)
         {
             return true;
-        }
-    }
-
-    public static class Extensions
-    {
-        public static bool IsBetween<T>(this T item, T start, T end)
-        {
-            return Comparer<T>.Default.Compare(item, start) >= 0
-                   && Comparer<T>.Default.Compare(item, end) <= 0;
         }
     }
 

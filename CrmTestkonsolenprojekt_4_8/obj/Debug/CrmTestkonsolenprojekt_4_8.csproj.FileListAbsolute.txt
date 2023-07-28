@@ -23,3 +23,33 @@ C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\CrmTestkonsolenprojekt_4_8\ob
 C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\CrmTestkonsolenprojekt_4_8\obj\Debug\CrmTestkonsolenprojekt_4_8.pdb
 C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\CrmTestkonsolenprojekt_4_8\obj\Debug\CrmTestkonsolenprojekt_4_8.csproj.AssemblyReference.cache
 C:\Users\psturm\OneDrive - Cosmo Consult AG\Coding\CrmTestkonsolenprojekt_4_8\obj\Debug\CrmTestkonsolenprojekt_4_8.csproj.CopyComplete
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\CrmTestkonsolenprojekt_4_8.exe.config
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\CrmTestkonsolenprojekt_4_8.exe
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\CrmTestkonsolenprojekt_4_8.pdb
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Cosmo.Core.dll
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\CRM.Core.dll
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Newtonsoft.Json.dll
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Cosmo.Core.xml
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\CRM.Core.xml
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Microsoft.Xrm.Tooling.Connector.xml
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\bin\Debug\Newtonsoft.Json.xml
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\obj\Debug\CrmTestkonsolenprojekt_4_8.csproj.AssemblyReference.cache
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\obj\Debug\CrmTestkonsolenprojekt_4_8.csproj.SuggestedBindingRedirects.cache
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\obj\Debug\CrmTestkonsolenprojekt_4_8.csproj.CoreCompileInputs.cache
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\obj\Debug\CrmTestkonsolenprojekt_4_8.csproj.CopyComplete
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\obj\Debug\CrmTestkonsolenprojekt_4_8.exe
+C:\GitPrivat\stupeCodeGitHub\CrmTestkonsolenprojekt_4_8\obj\Debug\CrmTestkonsolenprojekt_4_8.pdb
